@@ -1,4 +1,4 @@
-import FlexSearch from "flexsearch";
+import { Index } from "flexsearch";
 
 export interface SearchResult {
   type: "section" | "case" | "document" | "referendum";
@@ -18,12 +18,12 @@ interface SearchEntry {
   meta?: string;
 }
 
-let index: FlexSearch.Index | null = null;
+let index: Index | null = null;
 let entries: SearchEntry[] = [];
 
-function getIndex(): FlexSearch.Index {
+function getIndex(): Index {
   if (!index) {
-    index = new FlexSearch.Index({
+    index = new Index({
       tokenize: "forward",
       resolution: 9,
     });
