@@ -1,0 +1,98 @@
+[
+  {
+    "number": 0,
+    "title": "Preamble and Covering Clauses",
+    "slug": "preamble",
+    "parts": [],
+    "coveringClauses": ["cc1", "cc2", "cc3", "cc4", "cc5", "cc6", "cc7", "cc8", "cc9"],
+    "sections": [0]
+  },
+  {
+    "number": 1,
+    "title": "The Parliament",
+    "slug": "chapter-1-the-parliament",
+    "parts": [
+      {
+        "number": 1,
+        "title": "General",
+        "sections": [1, 2, 3, 4, 5, 6]
+      },
+      {
+        "number": 2,
+        "title": "The Senate",
+        "sections": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+      },
+      {
+        "number": 3,
+        "title": "The House of Representatives",
+        "sections": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+      },
+      {
+        "number": 4,
+        "title": "Both Houses of the Parliament",
+        "sections": [41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+      },
+      {
+        "number": 5,
+        "title": "Powers of the Parliament",
+        "sections": [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "title": "The Executive Government",
+    "slug": "chapter-2-the-executive-government",
+    "parts": [],
+    "sections": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+  },
+  {
+    "number": 3,
+    "title": "The Judicature",
+    "slug": "chapter-3-the-judicature",
+    "parts": [],
+    "sections": [71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+  },
+  {
+    "number": 4,
+    "title": "Finance and Trade",
+    "slug": "chapter-4-finance-and-trade",
+    "parts": [],
+    "sections": [81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105]
+  },
+  {
+    "number": 5,
+    "title": "The States",
+    "slug": "chapter-5-the-states",
+    "parts": [],
+    "sections": [106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120]
+  },
+  {
+    "number": 6,
+    "title": "New States",
+    "slug": "chapter-6-new-states",
+    "parts": [],
+    "sections": [121, 122, 123, 124]
+  },
+  {
+    "number": 7,
+    "title": "Miscellaneous",
+    "slug": "chapter-7-miscellaneous",
+    "parts": [],
+    "sections": [125, 126, 127]
+  },
+  {
+    "number": 8,
+    "title": "Alteration of the Constitution",
+    "slug": "chapter-8-alteration-of-the-constitution",
+    "parts": [],
+    "sections": [128]
+  },
+  {
+    "number": 9,
+    "title": "The Schedule",
+    "slug": "schedule",
+    "parts": [],
+    "sections": []
+  }
+]

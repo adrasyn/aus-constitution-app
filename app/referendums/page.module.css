@@ -1,0 +1,214 @@
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 16px 24px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 0;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+}
+
+.breadcrumbLink {
+  color: var(--color-accent-primary);
+  text-decoration: none;
+}
+
+.breadcrumbLink:hover {
+  color: var(--color-accent-secondary);
+}
+
+.breadcrumbSep {
+  color: var(--color-border);
+}
+
+.breadcrumbCurrent {
+  color: var(--color-text-secondary);
+}
+
+.header {
+  padding: 8px 0 16px;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  border: none;
+  padding: 0;
+}
+
+.subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  margin: 4px 0 0;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 16px;
+}
+
+.filterBtn {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 0.5px solid var(--color-border);
+  background: var(--color-bg-primary);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filterBtn:hover {
+  background: var(--color-bg-secondary);
+}
+
+.filterBtn.active {
+  background: var(--color-text-primary);
+  color: var(--color-bg-primary);
+  border-color: var(--color-text-primary);
+}
+
+.filterBtn.carriedActive {
+  background: var(--color-accent-primary);
+  color: #fff;
+  border-color: var(--color-accent-primary);
+}
+
+.filterBtn.defeatedActive {
+  background: var(--color-accent-reserved);
+  color: #fff;
+  border-color: var(--color-accent-reserved);
+}
+
+.empty {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  text-align: center;
+  padding: 48px 0;
+}
+
+.refList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.refCard {
+  padding: 14px 16px;
+  background: var(--color-bg-primary);
+  border: 0.5px solid var(--color-border);
+  border-left: 3px solid var(--color-border);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.refCard.carried {
+  border-left-color: var(--color-accent-primary);
+}
+
+.refCard.defeated {
+  border-left-color: var(--color-accent-reserved);
+}
+
+.refHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.yearBadge {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  background: var(--color-bg-secondary);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.outcomeBadge {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.outcomeCarried {
+  color: var(--color-accent-primary);
+  background: var(--color-tint-green);
+}
+
+.outcomeDefeated {
+  color: var(--color-accent-reserved);
+  background: var(--color-tint-burgundy);
+}
+
+.refTitle {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  border: none;
+  padding: 0;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.refQuestion {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+  margin: 0 0 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.refStats {
+  display: flex;
+  gap: 12px;
+}
+
+.stat {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+}
+
+.sectionPills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.sectionPill {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--color-accent-primary);
+  background: var(--color-bg-secondary);
+  padding: 1px 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.sectionPill:hover {
+  background: var(--color-tint-green);
+}

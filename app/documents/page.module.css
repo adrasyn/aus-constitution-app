@@ -1,0 +1,131 @@
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 16px 24px;
+}
+
+.header {
+  padding: 24px 0 16px;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  border: none;
+  padding: 0;
+}
+
+.subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  margin: 4px 0 0;
+}
+
+/* Referendum banner */
+.referendumBanner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  background: var(--color-tint-green);
+  border: 0.5px solid var(--color-accent-primary);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: box-shadow 0.15s ease;
+}
+
+.referendumBanner:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+.bannerTitle {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-accent-primary);
+  flex-shrink: 0;
+}
+
+.bannerDesc {
+  flex: 1;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  line-height: 1.3;
+}
+
+.bannerArrow {
+  font-size: 1.125rem;
+  color: var(--color-accent-primary);
+  flex-shrink: 0;
+}
+
+/* Document cards */
+.docList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.docCard {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 16px;
+  background: var(--color-bg-primary);
+  border: 0.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: box-shadow 0.15s ease;
+}
+
+.docCard:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+.yearBadge {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  background: var(--color-bg-secondary);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  width: fit-content;
+}
+
+.docTitle {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  border: none;
+  padding: 0;
+  line-height: 1.3;
+}
+
+.docDesc {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.sectionPills {
+  display: flex;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.sectionPill {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--color-text-secondary);
+  background: var(--color-bg-secondary);
+  padding: 1px 6px;
+  border-radius: 10px;
+}

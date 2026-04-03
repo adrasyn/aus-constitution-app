@@ -1,0 +1,132 @@
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.hero {
+  text-align: center;
+  padding: 32px 0 24px;
+}
+
+.coatOfArms {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+}
+
+.heading {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  margin-bottom: 4px;
+  border: none;
+  padding: 0;
+}
+
+.subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Quick-access pills */
+.pills {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 0 0 20px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.pills::-webkit-scrollbar {
+  display: none;
+}
+
+.pill {
+  flex-shrink: 0;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: var(--color-bg-secondary);
+  border: 0.5px solid var(--color-border);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-accent-primary);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pill:hover {
+  background: var(--color-tint-green);
+  box-shadow: var(--shadow-hover);
+  color: var(--color-accent-primary);
+}
+
+/* Chapter cards */
+.chapterList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 24px;
+}
+
+.chapterCard {
+  display: block;
+  padding: 16px 18px;
+  background: var(--color-bg-primary);
+  border: 0.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.chapterCard:hover {
+  box-shadow: var(--shadow-hover);
+  border-color: var(--color-accent-primary);
+}
+
+.chapterHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.chapterLabel {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  color: var(--color-accent-primary);
+}
+
+.chapterTitle {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  border: none;
+  padding: 0;
+  line-height: 1.4;
+}
+
+.chapterMeta {
+  display: flex;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.sectionCount,
+.partCount {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+}

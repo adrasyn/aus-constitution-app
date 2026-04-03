@@ -1,0 +1,116 @@
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 16px 24px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 0;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+}
+
+.breadcrumbLink {
+  color: var(--color-accent-primary);
+  text-decoration: none;
+}
+
+.breadcrumbLink:hover {
+  color: var(--color-accent-secondary);
+}
+
+.breadcrumbSep {
+  color: var(--color-border);
+}
+
+.breadcrumbCurrent {
+  color: var(--color-text-secondary);
+}
+
+/* Heading */
+.heading {
+  padding: 8px 0 24px;
+}
+
+.chapterLabel {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  color: var(--color-accent-primary);
+  margin-bottom: 4px;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  border: none;
+  padding: 0;
+}
+
+/* Parts */
+.partsList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.partGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.partTitle {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text-secondary);
+  padding: 0 2px;
+}
+
+/* Section cards */
+.sectionList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sectionCard {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.sectionCard:hover {
+  background: var(--color-bg-secondary);
+}
+
+.sectionNumber {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  min-width: 40px;
+}
+
+.sectionTitle {
+  font-family: var(--font-serif);
+  font-size: 0.9375rem;
+  color: var(--color-text-primary);
+  line-height: 1.4;
+}
