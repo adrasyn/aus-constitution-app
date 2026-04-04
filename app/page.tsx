@@ -24,7 +24,7 @@ export default function HomePage() {
     <div className={styles.container}>
       <div className={styles.hero}>
         <img
-          src="/coat-of-arms.svg"
+          src="/coat-of-arms.png"
           alt="Commonwealth Coat of Arms"
           className={styles.coatOfArms}
         />
