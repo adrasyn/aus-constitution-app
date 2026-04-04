@@ -28,7 +28,7 @@ export default function Header() {
 
   return (
     <>
-      <header className={`${styles.header} ${scrolled ? "glass" : ""}`}>
+      <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
         <div className={styles.inner}>
           <h1 className={styles.title}>Australian Constitution</h1>
           <button
