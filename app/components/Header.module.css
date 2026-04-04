@@ -3,7 +3,8 @@
   top: 0;
   z-index: 50;
   background: var(--color-bg-primary);
-  transition: background 0.2s ease, backdrop-filter 0.2s ease;
+  border-bottom: 0.5px solid transparent;
+  transition: background 0.2s ease, backdrop-filter 0.2s ease, border-color 0.2s ease;
 }
 
 .inner {
