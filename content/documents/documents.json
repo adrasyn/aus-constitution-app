@@ -1,19 +1,5 @@
 [
   {
-    "id": "covering-clauses",
-    "title": "Covering Clauses",
-    "year": 1900,
-    "description": "The nine clauses that precede the Constitution proper in the Commonwealth of Australia Constitution Act 1900",
-    "content": "The covering clauses form part of the Commonwealth of Australia Constitution Act 1900 (Imp). They established the Commonwealth of Australia, provided for the application of the Constitution as clause 9 of the Act, and dealt with transitional matters including the appointment of the first Governor-General. Clauses 2 through 5 address the Act's operation, the proclamation of the Commonwealth, its commencement, and the binding nature of the Constitution on the courts, judges, and people of every State.",
-    "relatedSections": [
-      "s1",
-      "s2",
-      "s3",
-      "s61"
-    ],
-    "sourceUrl": ""
-  },
-  {
     "id": "constitution-act-1900",
     "title": "Commonwealth of Australia Constitution Act 1900 (Imperial)",
     "year": 1900,
@@ -73,47 +59,6 @@
       "s1",
       "s2",
       "s3"
-    ],
-    "sourceUrl": ""
-  },
-  {
-    "id": "royal-commission-1929",
-    "title": "Royal Commission on the Constitution (1927–1929)",
-    "year": 1929,
-    "description": "A Royal Commission appointed to inquire into the workings of the Australian Constitution and the need for amendment",
-    "content": "The Royal Commission on the Constitution was appointed in 1927 under the Chairmanship of Sir John Peden and reported in 1929. It examined the financial relations between the Commonwealth and the States, the distribution of legislative powers, and various proposed amendments to the Constitution. While few of its recommendations were ultimately adopted, the Commission's report remains a significant historical document for understanding early debates about Australian federalism and the adequacy of the constitutional framework established in 1901.",
-    "relatedSections": [
-      "s51",
-      "s96",
-      "s128"
-    ],
-    "sourceUrl": ""
-  },
-  {
-    "id": "convention-1891",
-    "title": "National Australasian Convention (1891)",
-    "year": 1891,
-    "description": "The first major constitutional convention held in Sydney, which produced an initial draft of the Australian Constitution",
-    "content": "The National Australasian Convention met in Sydney from 2 March to 9 April 1891, attended by delegates from all six Australian colonies and New Zealand. Presided over by Sir Henry Parkes, the convention produced a draft constitution largely prepared by Sir Samuel Griffith, Andrew Inglis Clark, and Charles Kingston. Although the 1891 draft was never put to a popular vote due to political difficulties in several colonies, it laid the groundwork for the later conventions and heavily influenced the final text of the Constitution adopted in 1900.",
-    "relatedSections": [
-      "s1",
-      "s51",
-      "s71"
-    ],
-    "sourceUrl": ""
-  },
-  {
-    "id": "conventions-1897-98",
-    "title": "Australasian Federal Conventions (1897–1898)",
-    "year": 1897,
-    "description": "The series of elected conventions in Adelaide, Sydney, and Melbourne that produced the final draft of the Australian Constitution",
-    "content": "The Australasian Federal Conventions of 1897–1898 were a series of three sessions held in Adelaide (March–April 1897), Sydney (September 1897), and Melbourne (January–March 1898). Unlike the 1891 Convention, delegates were popularly elected in most colonies, giving the process greater democratic legitimacy. The conventions revised the 1891 draft substantially, strengthening the Senate's powers, refining the financial provisions, and establishing the High Court under Chapter III. The resulting draft was submitted to referendums in each colony and, after amendments to satisfy concerns raised by New South Wales, was approved by the voters and forwarded to the Imperial Parliament for enactment.",
-    "relatedSections": [
-      "s7",
-      "s24",
-      "s51",
-      "s71",
-      "s128"
     ],
     "sourceUrl": ""
   }

@@ -36,17 +36,8 @@ export default function HomePage() {
         <Link href="/referendums" className={styles.pill}>
           Referendums
         </Link>
-        <Link href="/constitution/preamble/s0" className={styles.pill}>
-          Preamble
-        </Link>
         <Link href="/constitution/chapter-1-the-parliament/s51" className={styles.pill}>
           s 51 Powers
-        </Link>
-        <Link href="/constitution/chapter-5-the-states/s116" className={styles.pill}>
-          s 116 Religion
-        </Link>
-        <Link href="/constitution/chapter-8-alteration-of-the-constitution/s128" className={styles.pill}>
-          s 128 Amendment
         </Link>
       </div>
 
