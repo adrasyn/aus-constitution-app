@@ -87,11 +87,6 @@ export default function HomePage() {
                 {sectionRange && (
                   <span className={styles.sectionCount}>{sectionRange}</span>
                 )}
-                {chapter.parts.length > 0 && (
-                  <span className={styles.partCount}>
-                    {chapter.parts.length} parts
-                  </span>
-                )}
               </div>
             </Link>
           );

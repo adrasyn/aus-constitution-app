@@ -12,7 +12,7 @@
 .coatOfArms {
   width: 140px;
   height: auto;
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
 }
 
 .heading {
@@ -130,7 +130,7 @@
 
 /* Footer */
 .footer {
-  padding: 24px 0 16px;
+  padding: 8px 0 16px;
   text-align: center;
 }
 
