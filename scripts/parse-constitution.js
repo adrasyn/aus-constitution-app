@@ -24,13 +24,15 @@ if (actStart === -1) {
   process.exit(1);
 }
 
-// Find the preamble
+// Find the preamble — only the enacting words, not covering clauses 1-9
 const preambleStart = raw.indexOf('WHEREAS the people of');
-const constitutionStart = raw.indexOf('Chapter I.', preambleStart);
-
-// Extract preamble
-const preambleText = raw.substring(preambleStart, constitutionStart).trim();
+// End preamble at "as follows:—" before covering clause 1
+const preambleEnd = raw.indexOf('as follows:', preambleStart);
+const preambleText = raw.substring(preambleStart, preambleEnd + 'as follows:\u2014'.length).trim();
 addSection(0, 'Preamble', 0, preambleText);
+
+// The Constitution proper starts at Chapter I
+const constitutionStart = raw.indexOf('Chapter I.', preambleStart);
 
 // Now parse sections from Chapter I onwards
 const bodyText = raw.substring(constitutionStart);

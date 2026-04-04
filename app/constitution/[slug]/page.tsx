@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import chaptersData from "@/content/constitution/chapters.json";
 import sectionsJsonData from "@/content/constitution/sections.json";
 import styles from "./page.module.css";
@@ -37,6 +37,14 @@ export default async function ChapterPage({
   const chapter = (chaptersData as Chapter[]).find((ch) => ch.slug === slug);
   if (!chapter) return notFound();
 
+  // Single-section chapters: redirect directly to the section
+  const allSections = chapter.parts.length > 0
+    ? chapter.parts.flatMap((p) => p.sections)
+    : chapter.sections;
+  if (allSections.length === 1) {
+    redirect(`/constitution/${slug}/s${allSections[0]}`);
+  }
+
   const isPreamble = chapter.number === 0;
 
   const sectionTitles: Record<string, string> = {};
@@ -47,6 +55,9 @@ export default async function ChapterPage({
   return (
     <div className={styles.container}>
       <nav className={styles.breadcrumb}>
+        <Link href="/" className={styles.backLink} aria-label="Back">
+          &larr;
+        </Link>
         <Link href="/" className={styles.breadcrumbLink}>
           Constitution
         </Link>

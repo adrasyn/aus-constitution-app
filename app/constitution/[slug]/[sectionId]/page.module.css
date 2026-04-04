@@ -15,6 +15,18 @@
   flex-wrap: wrap;
 }
 
+.backLink {
+  color: var(--color-accent-primary);
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1;
+  margin-right: 4px;
+}
+
+.backLink:hover {
+  color: var(--color-accent-secondary);
+}
+
 .breadcrumbLink {
   color: var(--color-accent-primary);
   text-decoration: none;

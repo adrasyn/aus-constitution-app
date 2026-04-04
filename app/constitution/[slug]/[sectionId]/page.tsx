@@ -109,6 +109,9 @@ export default async function SectionPage({
   return (
     <div className={styles.container}>
       <nav className={styles.breadcrumb}>
+        <Link href={`/constitution/${slug}`} className={styles.backLink} aria-label="Back">
+          &larr;
+        </Link>
         <Link href="/" className={styles.breadcrumbLink}>
           Constitution
         </Link>

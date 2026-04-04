@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import allCasesData from "@/content/cases/cases.json";
+import { getSectionHref, formatSectionRef } from "@/lib/section-links";
 import styles from "./page.module.css";
 
 interface CaseItem {
@@ -74,8 +75,8 @@ export default async function CaseDetailPage({
             </h3>
             <div className={styles.sectionPills}>
               {caseItem.relatedSections.map((s) => (
-                <Link key={s} href={`/constitution/preamble/s${s}`} className={styles.sectionPill}>
-                  s {s}
+                <Link key={s} href={getSectionHref(s)} className={styles.sectionPill}>
+                  {formatSectionRef(s)}
                 </Link>
               ))}
             </div>

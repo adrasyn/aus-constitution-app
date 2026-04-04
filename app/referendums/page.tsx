@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import allRefData from "@/content/referendums/referendums.json";
+import { getSectionHref, formatSectionRef } from "@/lib/section-links";
 import styles from "./page.module.css";
 
 interface ReferendumItem {
@@ -112,10 +113,10 @@ export default function ReferendumsPage() {
                   {r.relatedSections.map((s) => (
                     <Link
                       key={s}
-                      href={`/constitution/preamble/s${s}`}
+                      href={getSectionHref(s)}
                       className={styles.sectionPill}
                     >
-                      s {s}
+                      {formatSectionRef(s)}
                     </Link>
                   ))}
                 </div>
