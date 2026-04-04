@@ -71,6 +71,17 @@ export default async function CaseDetailPage({
           ))}
         </div>
 
+        {(caseItem as unknown as {sourceUrl?: string}).sourceUrl && (
+          <a
+            href={(caseItem as unknown as {sourceUrl: string}).sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.sourceLink}
+          >
+            Read full judgment on AustLII &rarr;
+          </a>
+        )}
+
         {caseItem.relatedSections.length > 0 && (
           <div className={styles.relatedSection}>
             <h3 className={styles.relatedHeading}>

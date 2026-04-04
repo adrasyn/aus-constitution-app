@@ -1,5 +1,21 @@
 [
   {
+    "id": "demden-v-pedder-1904",
+    "name": "D'Emden v Pedder",
+    "shortName": "D'Emden v Pedder",
+    "year": 1904,
+    "court": "High Court of Australia",
+    "citation": "(1904) 1 CLR 91",
+    "principle": "Established the doctrine of intergovernmental immunities, holding that Commonwealth instrumentalities were immune from State laws",
+    "outcome": "majority",
+    "relatedSections": [],
+    "relatedCases": [
+      "engineers-case-1920"
+    ],
+    "content": "The first landmark constitutional case decided by the High Court. Drawing on the US precedent of McCulloch v Maryland, the Court held that a Tasmanian stamp duty could not apply to the salary of a Commonwealth officer. This established the implied intergovernmental immunities doctrine, which held that neither level of government could interfere with the other's instrumentalities. The doctrine was later rejected by the Engineers' Case in 1920.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1904/1.html"
+  },
+  {
     "id": "huddart-parker-v-moorehead-1909",
     "name": "Huddart, Parker & Co Pty Ltd v Moorehead",
     "shortName": "Huddart Parker v Moorehead",
@@ -11,7 +27,8 @@
     "relatedSections": [
       "51(xx)"
     ],
-    "content": "This early High Court decision gave a narrow reading to the Commonwealth's corporations power under s 51(xx), holding it was limited to the creation of corporations and did not extend to regulating their trading activities. The restrictive interpretation persisted for decades and was not fully overturned until the Work Choices Case in 2006."
+    "content": "This early High Court decision gave a narrow reading to the Commonwealth's corporations power under s 51(xx), holding it was limited to the creation of corporations and did not extend to regulating their trading activities. The restrictive interpretation persisted for decades and was not fully overturned until the Work Choices Case in 2006.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1909/36.html"
   },
   {
     "id": "engineers-case-1920",
@@ -26,7 +43,8 @@
       "51",
       "109"
     ],
-    "content": "The Engineers' Case fundamentally changed the interpretation of the Australian Constitution by rejecting the previously applied doctrines of implied intergovernmental immunities and reserved State powers. The High Court held that the Constitution should be read as a statute and Commonwealth legislative powers given their full natural and ordinary meaning, marking a decisive shift toward a broader reading of Commonwealth power."
+    "content": "The Engineers' Case fundamentally changed the interpretation of the Australian Constitution by rejecting the previously applied doctrines of implied intergovernmental immunities and reserved State powers. The High Court held that the Constitution should be read as a statute and Commonwealth legislative powers given their full natural and ordinary meaning, marking a decisive shift toward a broader reading of Commonwealth power.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1920/54.html"
   },
   {
     "id": "first-uniform-tax-case-1942",
@@ -43,7 +61,8 @@
       "96",
       "109"
     ],
-    "content": "The High Court upheld the validity of the Commonwealth's wartime uniform taxation legislation, which effectively took over the income tax field from the States. The decision confirmed that the Commonwealth could use its taxation power in combination with conditional grants under s 96 to achieve fiscal dominance, fundamentally reshaping Australian federalism and Commonwealth-State financial relations."
+    "content": "The High Court upheld the validity of the Commonwealth's wartime uniform taxation legislation, which effectively took over the income tax field from the States. The decision confirmed that the Commonwealth could use its taxation power in combination with conditional grants under s 96 to achieve fiscal dominance, fundamentally reshaping Australian federalism and Commonwealth-State financial relations.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1942/14.html"
   },
   {
     "id": "melbourne-corporation-v-commonwealth-1947",
@@ -57,7 +76,40 @@
     "relatedSections": [
       "51(ii)"
     ],
-    "content": "This case established the Melbourne Corporation doctrine, an implied constitutional limitation preventing the Commonwealth from enacting laws that discriminate against the States or that curtail their capacity to function as independent governments within the federal system. The principle remains a key safeguard of Australian federalism, protecting the States from being rendered mere instruments of Commonwealth policy."
+    "content": "This case established the Melbourne Corporation doctrine, an implied constitutional limitation preventing the Commonwealth from enacting laws that discriminate against the States or that curtail their capacity to function as independent governments within the federal system. The principle remains a key safeguard of Australian federalism, protecting the States from being rendered mere instruments of Commonwealth policy.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1947/26.html"
+  },
+  {
+    "id": "bank-nationalisation-case-1948",
+    "name": "Bank of New South Wales v Commonwealth",
+    "shortName": "Bank Nationalisation Case",
+    "year": 1948,
+    "court": "High Court of Australia",
+    "citation": "(1948) 76 CLR 1",
+    "principle": "Struck down the Banking Act 1947 provisions for nationalisation of private banks, partly on the basis of s 92 freedom of interstate trade",
+    "outcome": "majority",
+    "relatedSections": [
+      "51(xiii)",
+      "92"
+    ],
+    "content": "The High Court invalidated provisions of the Banking Act 1947 that sought to nationalise the private banking sector, finding that the compulsory acquisition of banking businesses violated s 92 of the Constitution (freedom of interstate trade and commerce). The decision was a significant limitation on Commonwealth economic power and demonstrated the potency of s 92 as a constitutional constraint during this era.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1948/7.html"
+  },
+  {
+    "id": "communist-party-case-1951",
+    "name": "Australian Communist Party v Commonwealth",
+    "shortName": "Communist Party Case",
+    "year": 1951,
+    "court": "High Court of Australia",
+    "citation": "(1951) 83 CLR 1",
+    "principle": "Struck down the Communist Party Dissolution Act 1950, holding that the Commonwealth cannot simply declare facts to bring legislation within a head of power; Parliament cannot expand its own powers by legislative recital",
+    "outcome": "majority",
+    "relatedSections": [
+      "51(vi)",
+      "51(xxxix)"
+    ],
+    "content": "The High Court struck down the Communist Party Dissolution Act 1950, which sought to dissolve the Communist Party and associated organisations. The majority held that the defence power in peacetime did not support the legislation, and that Parliament could not expand its own constitutional powers by making legislative declarations of fact — a recital that the Communist Party was a threat to national security could not make it so for constitutional purposes.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1951/5.html"
   },
   {
     "id": "boilermakers-case-1956",
@@ -73,7 +125,43 @@
       "72",
       "73"
     ],
-    "content": "The Boilermakers' Case established the strict separation of judicial power under Chapter III of the Constitution, holding that federal courts could only exercise judicial power and that judicial power could only be vested in Chapter III courts. The decision invalidated the Commonwealth Court of Conciliation and Arbitration's combination of judicial and arbitral functions, requiring the creation of separate judicial and administrative tribunals."
+    "content": "The Boilermakers' Case established the strict separation of judicial power under Chapter III of the Constitution, holding that federal courts could only exercise judicial power and that judicial power could only be vested in Chapter III courts. The decision invalidated the Commonwealth Court of Conciliation and Arbitration's combination of judicial and arbitral functions, requiring the creation of separate judicial and administrative tribunals.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1956/10.html"
+  },
+  {
+    "id": "second-uniform-tax-case-1957",
+    "name": "Victoria v Commonwealth",
+    "shortName": "Second Uniform Tax Case",
+    "year": 1957,
+    "court": "High Court of Australia",
+    "citation": "(1957) 99 CLR 575",
+    "principle": "Confirmed the validity of the uniform taxation scheme in peacetime, upholding the Commonwealth's continued dominance of the income tax field",
+    "outcome": "majority",
+    "relatedSections": [
+      "51(ii)",
+      "96"
+    ],
+    "content": "The High Court confirmed that the uniform taxation scheme, originally upheld during wartime in the First Uniform Tax Case, remained valid in peacetime. The decision cemented the Commonwealth's exclusive occupation of the income tax field and its fiscal dominance over the States, which has remained a defining feature of Australian federalism.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1957/54.html"
+  },
+  {
+    "id": "strickland-v-rocla-1971",
+    "name": "Strickland v Rocla Concrete Pipes Ltd",
+    "shortName": "Concrete Pipes Case",
+    "year": 1971,
+    "court": "High Court of Australia",
+    "citation": "(1971) 124 CLR 468",
+    "principle": "Broadened the corporations power (s 51(xx)) by overruling Huddart Parker, allowing Commonwealth regulation of the activities of trading corporations",
+    "outcome": "majority",
+    "relatedSections": [
+      "51(xx)"
+    ],
+    "relatedCases": [
+      "huddart-parker-v-moorehead-1909",
+      "work-choices-case-2006"
+    ],
+    "content": "This case overruled the narrow reading of the corporations power established in Huddart Parker v Moorehead (1909). The Court held that s 51(xx) empowered the Commonwealth to regulate the trading activities of constitutional corporations, not merely their incorporation. This opened the way for extensive Commonwealth regulation of corporate conduct and was the critical stepping stone to the Work Choices Case (2006).",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1971/36.html"
   },
   {
     "id": "koowarta-v-bjelke-petersen-1982",
@@ -87,7 +175,8 @@
     "relatedSections": [
       "51(xxix)"
     ],
-    "content": "The High Court upheld the validity of the Racial Discrimination Act 1975 as an exercise of the external affairs power under s 51(xxix), on the basis that it implemented Australia's obligations under the International Convention on the Elimination of All Forms of Racial Discrimination. The 4-3 decision confirmed that the Commonwealth could legislate to give effect to international treaties, even on matters otherwise within State jurisdiction."
+    "content": "The High Court upheld the validity of the Racial Discrimination Act 1975 as an exercise of the external affairs power under s 51(xxix), on the basis that it implemented Australia's obligations under the International Convention on the Elimination of All Forms of Racial Discrimination. The 4-3 decision confirmed that the Commonwealth could legislate to give effect to international treaties, even on matters otherwise within State jurisdiction.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1982/27.html"
   },
   {
     "id": "tasmanian-dam-case-1983",
@@ -102,7 +191,8 @@
       "51(xxix)",
       "51(xx)"
     ],
-    "content": "In this landmark environmental case, the High Court upheld the Commonwealth's World Heritage Properties Conservation Act 1983, which prevented Tasmania from damming the Franklin River. The 4-3 majority confirmed that the external affairs power extended to implementing international conventions such as the World Heritage Convention, even where this overrode State laws on matters traditionally within State control."
+    "content": "In this landmark environmental case, the High Court upheld the Commonwealth's World Heritage Properties Conservation Act 1983, which prevented Tasmania from damming the Franklin River. The 4-3 majority confirmed that the external affairs power extended to implementing international conventions such as the World Heritage Convention, even where this overrode State laws on matters traditionally within State control.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1983/21.html"
   },
   {
     "id": "cole-v-whitfield-1988",
@@ -116,7 +206,8 @@
     "relatedSections": [
       "92"
     ],
-    "content": "Cole v Whitfield unanimously reinterpreted s 92 of the Constitution, which guarantees that trade and commerce among the States shall be 'absolutely free.' The Court abandoned the previous broad individual rights interpretation and held that s 92 prohibits discriminatory burdens of a protectionist kind on interstate trade, using the convention debates as an interpretive aid for the first time."
+    "content": "Cole v Whitfield unanimously reinterpreted s 92 of the Constitution, which guarantees that trade and commerce among the States shall be 'absolutely free.' The Court abandoned the previous broad individual rights interpretation and held that s 92 prohibits discriminatory burdens of a protectionist kind on interstate trade, using the convention debates as an interpretive aid for the first time.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1988/18.html"
   },
   {
     "id": "street-v-qld-bar-assoc-1989",
@@ -130,7 +221,8 @@
     "relatedSections": [
       "117"
     ],
-    "content": "The High Court held that Queensland Bar Association rules requiring interstate barristers to establish residence in Queensland before practising there contravened s 117 of the Constitution, which provides that a resident of any State shall not be subject to disability or discrimination in another State. The decision reinforced the constitutional guarantee of equal treatment for residents across State borders."
+    "content": "The High Court held that Queensland Bar Association rules requiring interstate barristers to establish residence in Queensland before practising there contravened s 117 of the Constitution, which provides that a resident of any State shall not be subject to disability or discrimination in another State. The decision reinforced the constitutional guarantee of equal treatment for residents across State borders.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1989/53.html"
   },
   {
     "id": "actv-v-commonwealth-1992",
@@ -147,7 +239,8 @@
       "64",
       "128"
     ],
-    "content": "This landmark case established that the Australian Constitution contains an implied freedom of political communication, derived from the constitutionally prescribed system of representative government requiring elections 'directly chosen by the people.' The Court struck down provisions of the Political Broadcasts and Political Disclosures Act 1991 that banned political advertising on radio and television during election periods."
+    "content": "This landmark case established that the Australian Constitution contains an implied freedom of political communication, derived from the constitutionally prescribed system of representative government requiring elections 'directly chosen by the people.' The Court struck down provisions of the Political Broadcasts and Political Disclosures Act 1991 that banned political advertising on radio and television during election periods.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1992/45.html"
   },
   {
     "id": "nationwide-news-v-wills-1992",
@@ -162,7 +255,8 @@
       "7",
       "24"
     ],
-    "content": "Decided alongside Australian Capital Television, this case further established the implied freedom of political communication under the Constitution. The High Court struck down s 299(1)(d)(ii) of the Industrial Relations Act 1988, which made it an offence to use words calculated to bring the Industrial Relations Commission or its members into disrepute, holding it was inconsistent with the constitutionally implied freedom."
+    "content": "Decided alongside Australian Capital Television, this case further established the implied freedom of political communication under the Constitution. The High Court struck down s 299(1)(d)(ii) of the Industrial Relations Act 1988, which made it an offence to use words calculated to bring the Industrial Relations Commission or its members into disrepute, holding it was inconsistent with the constitutionally implied freedom.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1992/46.html"
   },
   {
     "id": "mabo-v-queensland-no2-1992",
@@ -177,7 +271,62 @@
       "51(xxvi)",
       "109"
     ],
-    "content": "While primarily a common law decision, Mabo (No 2) has profound constitutional significance. The High Court recognised that native title existed at common law and had survived British sovereignty where it had not been extinguished, rejecting the fiction of terra nullius. The decision prompted the Commonwealth to enact the Native Title Act 1993 under the races power (s 51(xxvi)) and reshaped the constitutional landscape regarding Indigenous land rights."
+    "content": "While primarily a common law decision, Mabo (No 2) has profound constitutional significance. The High Court recognised that native title existed at common law and had survived British sovereignty where it had not been extinguished, rejecting the fiction of terra nullius. The decision prompted the Commonwealth to enact the Native Title Act 1993 under the races power (s 51(xxvi)) and reshaped the constitutional landscape regarding Indigenous land rights.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1992/23.html"
+  },
+  {
+    "id": "chu-kheng-lim-1992",
+    "name": "Chu Kheng Lim v Minister for Immigration",
+    "shortName": "Lim",
+    "year": 1992,
+    "court": "High Court of Australia",
+    "citation": "(1992) 176 CLR 1",
+    "principle": "Executive detention of aliens must be non-punitive; punitive detention is exclusively a judicial function under Chapter III",
+    "outcome": "majority",
+    "relatedSections": [
+      "51(xix)",
+      "71"
+    ],
+    "relatedCases": [
+      "al-kateb-v-godwin-2004",
+      "nzyq-2023"
+    ],
+    "content": "Established the 'Lim principle' — that the executive power to detain aliens under the aliens power (s 51(xix)) is limited to detention that is reasonably necessary for purposes such as processing or deportation. Punitive detention can only be imposed by the judiciary under Chapter III. This principle became the foundation for all subsequent constitutional challenges to immigration detention, including Al-Kateb and NZYQ.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1992/64.html"
+  },
+  {
+    "id": "sykes-v-cleary-1992",
+    "name": "Sykes v Cleary",
+    "shortName": "Sykes v Cleary",
+    "year": 1992,
+    "court": "High Court of Australia",
+    "citation": "(1992) 176 CLR 77",
+    "principle": "Leading case on s 44 disqualification — defined requirements for renouncing foreign citizenship and the scope of office of profit under the Crown",
+    "outcome": "majority",
+    "relatedSections": [
+      "44"
+    ],
+    "relatedCases": [
+      "sue-v-hill-1999"
+    ],
+    "content": "Phil Cleary was elected to the House of Representatives but was found to hold an office of profit under the Crown as a State school teacher on leave without pay. Two other candidates were found disqualified under s 44(i) for holding foreign citizenship without taking reasonable steps to renounce it. This case established the foundational principles for s 44 disqualification and became directly relevant during the 2017 parliamentary eligibility crisis.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1992/60.html"
+  },
+  {
+    "id": "kable-v-dpp-1996",
+    "name": "Kable v Director of Public Prosecutions (NSW)",
+    "shortName": "Kable v DPP",
+    "year": 1996,
+    "court": "High Court of Australia",
+    "citation": "(1996) 189 CLR 51",
+    "principle": "Held that State legislation cannot confer functions on State courts that are incompatible with their role as repositories of federal judicial power under Chapter III",
+    "outcome": "majority",
+    "relatedSections": [
+      "71",
+      "77(iii)"
+    ],
+    "content": "The High Court established the Kable doctrine, holding that State courts which are invested with federal jurisdiction under Chapter III of the Constitution cannot be required by State legislation to exercise functions incompatible with their institutional integrity as courts. The Community Protection Act 1994 (NSW), which allowed preventive detention of a named individual, was struck down as repugnant to Chapter III.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1996/24.html"
   },
   {
     "id": "ha-v-nsw-1997",
@@ -191,7 +340,8 @@
     "relatedSections": [
       "90"
     ],
-    "content": "The High Court gave a broad interpretation to the prohibition on State duties of excise under s 90, defining an excise as a tax on goods imposed at any stage before their consumption. The 4-3 decision struck down New South Wales tobacco franchise fees, significantly limiting the States' capacity to raise revenue independently and reinforcing Commonwealth fiscal dominance."
+    "content": "The High Court gave a broad interpretation to the prohibition on State duties of excise under s 90, defining an excise as a tax on goods imposed at any stage before their consumption. The 4-3 decision struck down New South Wales tobacco franchise fees, significantly limiting the States' capacity to raise revenue independently and reinforcing Commonwealth fiscal dominance.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1997/34.html"
   },
   {
     "id": "lange-v-abc-1997",
@@ -208,7 +358,46 @@
       "64",
       "128"
     ],
-    "content": "In a unanimous decision, the High Court reformulated the implied freedom of political communication, establishing a structured two-step test: first, whether a law effectively burdens freedom of communication about government or political matters; and second, whether the law is reasonably appropriate and adapted to serve a legitimate end compatible with the constitutionally prescribed system of representative government. The decision also expanded the common law defence of qualified privilege for political communications."
+    "content": "In a unanimous decision, the High Court reformulated the implied freedom of political communication, establishing a structured two-step test: first, whether a law effectively burdens freedom of communication about government or political matters; and second, whether the law is reasonably appropriate and adapted to serve a legitimate end compatible with the constitutionally prescribed system of representative government. The decision also expanded the common law defence of qualified privilege for political communications.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1997/25.html"
+  },
+  {
+    "id": "re-wakim-1999",
+    "name": "Re Wakim; Ex parte McNally",
+    "shortName": "Re Wakim",
+    "year": 1999,
+    "court": "High Court of Australia",
+    "citation": "(1999) 198 CLR 511",
+    "principle": "State Parliaments cannot confer State jurisdiction on federal courts; the cooperative cross-vesting scheme was partially invalid",
+    "outcome": "majority",
+    "relatedSections": [
+      "71",
+      "75",
+      "76"
+    ],
+    "relatedCases": [
+      "boilermakers-case-1956"
+    ],
+    "content": "The Court held that Chapter III of the Constitution exhaustively defines the jurisdiction that federal courts may exercise, and that State Parliaments cannot confer State jurisdiction on federal courts. This invalidated key parts of the national cross-vesting scheme that had been operating cooperatively since 1987. The decision demonstrated the rigid limits of Chapter III and that cooperative federalism cannot supply constitutional power that does not exist.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1999/27.html"
+  },
+  {
+    "id": "sue-v-hill-1999",
+    "name": "Sue v Hill",
+    "shortName": "Sue v Hill",
+    "year": 1999,
+    "court": "High Court of Australia",
+    "citation": "(1999) 199 CLR 462",
+    "principle": "The United Kingdom is a foreign power for the purposes of s 44(i); dual citizens with the UK are disqualified from sitting in Parliament",
+    "outcome": "majority",
+    "relatedSections": [
+      "44"
+    ],
+    "relatedCases": [
+      "sykes-v-cleary-1992"
+    ],
+    "content": "Senator Heather Hill was found to be a subject of a foreign power (the United Kingdom) under s 44(i) because she held British citizenship. The Court held that following the Australia Acts 1986, the UK is a 'foreign power' within the meaning of the Constitution. This confirmed Australia's full constitutional independence and became hugely practically significant during the 2017 parliamentary eligibility crisis.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1999/30.html"
   },
   {
     "id": "plaintiff-s157-2003",
@@ -222,7 +411,28 @@
     "relatedSections": [
       "75(v)"
     ],
-    "content": "The High Court unanimously held that s 75(v) of the Constitution, which confers original jurisdiction on the High Court in matters involving officers of the Commonwealth, provides a constitutionally entrenched minimum provision of judicial review that cannot be abrogated by Parliament. The decision read down the Migration Act's privative clause so that it did not prevent review of jurisdictional errors by Commonwealth officers."
+    "content": "The High Court unanimously held that s 75(v) of the Constitution, which confers original jurisdiction on the High Court in matters involving officers of the Commonwealth, provides a constitutionally entrenched minimum provision of judicial review that cannot be abrogated by Parliament. The decision read down the Migration Act's privative clause so that it did not prevent review of jurisdictional errors by Commonwealth officers.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2003/2.html"
+  },
+  {
+    "id": "al-kateb-v-godwin-2004",
+    "name": "Al-Kateb v Godwin",
+    "shortName": "Al-Kateb",
+    "year": 2004,
+    "court": "High Court of Australia",
+    "citation": "(2004) 219 CLR 562",
+    "principle": "Indefinite detention of a stateless person held constitutionally valid where removal from Australia was not reasonably practicable",
+    "outcome": "majority",
+    "relatedSections": [
+      "51(xix)",
+      "71"
+    ],
+    "relatedCases": [
+      "chu-kheng-lim-1992",
+      "nzyq-2023"
+    ],
+    "content": "In a controversial 4-3 decision, the Court held that the mandatory detention of a stateless Palestinian man was constitutionally valid even though there was no real prospect of his removal from Australia. The majority held that detention for the purpose of removal did not become punitive merely because removal was not practicable. This decision was widely criticised and was overturned by NZYQ v Minister for Immigration in 2023.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2004/37.html"
   },
   {
     "id": "work-choices-case-2006",
@@ -237,7 +447,8 @@
       "51(xx)",
       "51(xxxv)"
     ],
-    "content": "The High Court upheld the validity of the Workplace Relations Amendment (Work Choices) Act 2005, finding that the corporations power under s 51(xx) authorised the Commonwealth to regulate the employment conditions of constitutional corporations. The 5-2 decision dramatically expanded the scope of the corporations power, effectively allowing the Commonwealth to create a national industrial relations system without relying on the conciliation and arbitration power."
+    "content": "The High Court upheld the validity of the Workplace Relations Amendment (Work Choices) Act 2005, finding that the corporations power under s 51(xx) authorised the Commonwealth to regulate the employment conditions of constitutional corporations. The 5-2 decision dramatically expanded the scope of the corporations power, effectively allowing the Commonwealth to create a national industrial relations system without relying on the conciliation and arbitration power.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2006/52.html"
   },
   {
     "id": "roach-v-electoral-commissioner-2007",
@@ -252,7 +463,8 @@
       "7",
       "24"
     ],
-    "content": "The High Court struck down amendments to the Commonwealth Electoral Act that imposed a blanket ban on voting by all prisoners serving a sentence of imprisonment. The majority held that the words 'directly chosen by the people' in ss 7 and 24 of the Constitution enshrine a constitutionally protected right to vote, and that a complete ban on prisoner voting was disproportionate to any legitimate purpose."
+    "content": "The High Court struck down amendments to the Commonwealth Electoral Act that imposed a blanket ban on voting by all prisoners serving a sentence of imprisonment. The majority held that the words 'directly chosen by the people' in ss 7 and 24 of the Constitution enshrine a constitutionally protected right to vote, and that a complete ban on prisoner voting was disproportionate to any legitimate purpose.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2007/43.html"
   },
   {
     "id": "pape-v-commissioner-2009",
@@ -268,7 +480,64 @@
       "51(xxxix)",
       "81"
     ],
-    "content": "The High Court upheld the validity of the Tax Bonus for Working Australians Act 2009, which authorised stimulus payments during the Global Financial Crisis. A majority found the legislation could be supported by the executive power under s 61 combined with the incidental power under s 51(xxxix), recognising a nationhood power that authorised expenditure in response to circumstances of national scale and urgency."
+    "content": "The High Court upheld the validity of the Tax Bonus for Working Australians Act 2009, which authorised stimulus payments during the Global Financial Crisis. A majority found the legislation could be supported by the executive power under s 61 combined with the incidental power under s 51(xxxix), recognising a nationhood power that authorised expenditure in response to circumstances of national scale and urgency.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2009/23.html"
+  },
+  {
+    "id": "wurridjal-v-commonwealth-2009",
+    "name": "Wurridjal v Commonwealth",
+    "shortName": "Wurridjal",
+    "year": 2009,
+    "court": "High Court of Australia",
+    "citation": "(2009) 237 CLR 309",
+    "principle": "The just terms guarantee in s 51(xxxi) applies to acquisitions of property under the territories power (s 122)",
+    "outcome": "majority",
+    "relatedSections": [
+      "51(xxxi)",
+      "122"
+    ],
+    "relatedCases": [],
+    "content": "The Court held that the just terms requirement of s 51(xxxi) constrains the exercise of the territories power in s 122, overturning the 1969 decision in Teori Tau. The case arose from the Northern Territory National Emergency Response (the Intervention), which involved five-year leases over Aboriginal land. The decision was significant for the property rights of Territory residents, particularly Aboriginal landholders.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2009/2.html"
+  },
+  {
+    "id": "kirk-v-industrial-court-2010",
+    "name": "Kirk v Industrial Court of NSW",
+    "shortName": "Kirk",
+    "year": 2010,
+    "court": "High Court of Australia",
+    "citation": "(2010) 239 CLR 531",
+    "principle": "State Supreme Courts possess a constitutionally entrenched minimum jurisdiction to review jurisdictional errors of inferior courts and tribunals",
+    "outcome": "unanimous",
+    "relatedSections": [
+      "71",
+      "73"
+    ],
+    "relatedCases": [
+      "kable-v-dpp-1996",
+      "plaintiff-s157-2003"
+    ],
+    "content": "The Court unanimously held that just as the Commonwealth Parliament cannot strip the High Court of jurisdiction to review federal jurisdictional errors (per Plaintiff S157), State Parliaments cannot strip their Supreme Courts of supervisory jurisdiction over jurisdictional errors of inferior courts and tribunals. This constitutionalised judicial review at the State level and was described as breathing new life into the Kable principle.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2010/1.html"
+  },
+  {
+    "id": "rowe-v-electoral-commissioner-2010",
+    "name": "Rowe v Electoral Commissioner",
+    "shortName": "Rowe",
+    "year": 2010,
+    "court": "High Court of Australia",
+    "citation": "(2010) 243 CLR 1",
+    "principle": "The Constitution embeds a right to vote; early closure of electoral rolls after writs are issued was invalid",
+    "outcome": "majority",
+    "relatedSections": [
+      "7",
+      "24"
+    ],
+    "relatedCases": [
+      "roach-v-electoral-commissioner-2007"
+    ],
+    "content": "Extending the reasoning in Roach v Electoral Commissioner (2007), the Court held that amendments shortening the period for closing the electoral roll after writs were issued were invalid. The majority held that the constitutional requirement that members be directly chosen by the people implies a constitutionally protected franchise that Parliament cannot unjustifiably restrict.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2010/46.html"
   },
   {
     "id": "williams-v-commonwealth-2012",
@@ -284,7 +553,89 @@
       "81",
       "83"
     ],
-    "content": "The High Court held that the Commonwealth's executive power under s 61 did not authorise the funding agreement for the National School Chaplaincy Programme without specific legislative support under a head of Commonwealth legislative power. The decision rejected the proposition that the Commonwealth executive could spend money on any subject it chose, requiring that spending programmes be authorised by legislation traceable to a constitutional head of power."
+    "content": "The High Court held that the Commonwealth's executive power under s 61 did not authorise the funding agreement for the National School Chaplaincy Programme without specific legislative support under a head of Commonwealth legislative power. The decision rejected the proposition that the Commonwealth executive could spend money on any subject it chose, requiring that spending programmes be authorised by legislation traceable to a constitutional head of power.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2012/23.html"
+  },
+  {
+    "id": "unions-nsw-v-nsw-2013",
+    "name": "Unions NSW v New South Wales",
+    "shortName": "Unions NSW",
+    "year": 2013,
+    "court": "High Court of Australia",
+    "citation": "(2013) 252 CLR 530",
+    "principle": "NSW electoral donation restrictions held to impermissibly burden the implied freedom of political communication",
+    "outcome": "majority",
+    "relatedSections": [
+      "7",
+      "24"
+    ],
+    "relatedCases": [
+      "mccloy-v-nsw-2015",
+      "actv-v-commonwealth-1992"
+    ],
+    "content": "The Court struck down provisions of the NSW Election Funding, Expenditure and Disclosures Act that prohibited political donations by entities other than individuals on the electoral roll. This was the first law struck down for breaching the implied freedom of political communication since the original ACTV and Nationwide News decisions in 1992, demonstrating the freedom's continuing vitality.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2013/58.html"
+  },
+  {
+    "id": "mccloy-v-nsw-2015",
+    "name": "McCloy v New South Wales",
+    "shortName": "McCloy",
+    "year": 2015,
+    "court": "High Court of Australia",
+    "citation": "(2015) 257 CLR 178",
+    "principle": "Introduced structured proportionality testing (suitability, necessity, adequacy in balance) into the implied freedom of political communication",
+    "outcome": "majority",
+    "relatedSections": [
+      "7",
+      "24"
+    ],
+    "relatedCases": [
+      "lange-v-abc-1997",
+      "unions-nsw-v-nsw-2013",
+      "brown-v-tasmania-2017"
+    ],
+    "content": "The Court upheld NSW caps on political donations and bans on donations by property developers. In doing so, the majority introduced a structured proportionality test replacing the reasonableness standard from Lange v ABC. The new test requires that a law burdening political communication be suitable, necessary, and adequate in its balance of the competing interests. This fundamentally changed the analytical framework for all implied freedom cases.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2015/34.html"
+  },
+  {
+    "id": "brown-v-tasmania-2017",
+    "name": "Brown v Tasmania",
+    "shortName": "Brown v Tasmania",
+    "year": 2017,
+    "court": "High Court of Australia",
+    "citation": "(2017) 261 CLR 328",
+    "principle": "Anti-protest legislation held invalid as an impermissible burden on the implied freedom of political communication; protest is constitutionally protected",
+    "outcome": "majority",
+    "relatedSections": [
+      "7",
+      "24"
+    ],
+    "relatedCases": [
+      "mccloy-v-nsw-2015",
+      "clubb-v-edwards-2019"
+    ],
+    "content": "The Court struck down provisions of the Tasmanian Workplaces (Protection from Protesters) Act 2014 that created offences for protesting on business premises. Applying the McCloy structured proportionality test, the majority held the laws were not reasonably necessary and placed a disproportionate burden on political communication. The case confirmed that peaceful protest is a form of political communication protected by the implied freedom.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2017/43.html"
+  },
+  {
+    "id": "clubb-v-edwards-2019",
+    "name": "Clubb v Edwards",
+    "shortName": "Clubb v Edwards",
+    "year": 2019,
+    "court": "High Court of Australia",
+    "citation": "(2019) 267 CLR 171",
+    "principle": "Confirmed and refined the structured proportionality test; abortion clinic safe-zone laws upheld as valid",
+    "outcome": "unanimous",
+    "relatedSections": [
+      "7",
+      "24"
+    ],
+    "relatedCases": [
+      "mccloy-v-nsw-2015",
+      "brown-v-tasmania-2017"
+    ],
+    "content": "The Court unanimously upheld Victorian and Tasmanian laws creating safe access zones around abortion clinics, prohibiting certain communications within 150 metres. While the justices were divided on methodology, all agreed the laws were valid. The case refined the application of structured proportionality after McCloy and Brown, confirming the current state of the implied freedom doctrine.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2019/11.html"
   },
   {
     "id": "love-v-commonwealth-2020",
@@ -298,66 +649,45 @@
     "relatedSections": [
       "51(xix)"
     ],
-    "content": "In a 4-3 decision, the High Court held that Aboriginal Australians who are recognised by their community under traditional laws and customs, and who identify as Aboriginal, cannot be classified as 'aliens' under s 51(xix) of the Constitution, regardless of their citizenship status. The decision meant that non-citizen Aboriginal persons could not be subject to deportation under the Migration Act, recognising a unique constitutional status for Aboriginal Australians connected to their pre-sovereignty relationship with the land."
+    "content": "In a 4-3 decision, the High Court held that Aboriginal Australians who are recognised by their community under traditional laws and customs, and who identify as Aboriginal, cannot be classified as 'aliens' under s 51(xix) of the Constitution, regardless of their citizenship status. The decision meant that non-citizen Aboriginal persons could not be subject to deportation under the Migration Act, recognising a unique constitutional status for Aboriginal Australians connected to their pre-sovereignty relationship with the land.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2020/3.html"
   },
   {
-    "id": "communist-party-case-1951",
-    "name": "Australian Communist Party v Commonwealth",
-    "shortName": "Communist Party Case",
-    "year": 1951,
+    "id": "palmer-v-western-australia-2021",
+    "name": "Palmer v Western Australia",
+    "shortName": "Palmer v WA",
+    "year": 2021,
     "court": "High Court of Australia",
-    "citation": "(1951) 83 CLR 1",
-    "principle": "Struck down the Communist Party Dissolution Act 1950, holding that the Commonwealth cannot simply declare facts to bring legislation within a head of power; Parliament cannot expand its own powers by legislative recital",
+    "citation": "(2021) 272 CLR 505",
+    "principle": "COVID-19 border closures upheld under s 92; reunified the trade/commerce and intercourse limbs and applied structured proportionality to s 92",
     "outcome": "majority",
     "relatedSections": [
-      "51(vi)",
-      "51(xxxix)"
-    ],
-    "content": "The High Court struck down the Communist Party Dissolution Act 1950, which sought to dissolve the Communist Party and associated organisations. The majority held that the defence power in peacetime did not support the legislation, and that Parliament could not expand its own constitutional powers by making legislative declarations of fact — a recital that the Communist Party was a threat to national security could not make it so for constitutional purposes."
-  },
-  {
-    "id": "bank-nationalisation-case-1948",
-    "name": "Bank of New South Wales v Commonwealth",
-    "shortName": "Bank Nationalisation Case",
-    "year": 1948,
-    "court": "High Court of Australia",
-    "citation": "(1948) 76 CLR 1",
-    "principle": "Struck down the Banking Act 1947 provisions for nationalisation of private banks, partly on the basis of s 92 freedom of interstate trade",
-    "outcome": "majority",
-    "relatedSections": [
-      "51(xiii)",
       "92"
     ],
-    "content": "The High Court invalidated provisions of the Banking Act 1947 that sought to nationalise the private banking sector, finding that the compulsory acquisition of banking businesses violated s 92 of the Constitution (freedom of interstate trade and commerce). The decision was a significant limitation on Commonwealth economic power and demonstrated the potency of s 92 as a constitutional constraint during this era."
+    "relatedCases": [
+      "cole-v-whitfield-1988"
+    ],
+    "content": "The most significant s 92 case since Cole v Whitfield (1988). Clive Palmer challenged Western Australia's hard border closure during the COVID-19 pandemic. The Court upheld the closure, holding that s 92 does not guarantee absolute freedom but rather freedom from discriminatory or protectionist burdens. The Court reunified the 'trade and commerce' and 'intercourse' limbs of s 92 and applied structured proportionality analysis for the first time.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2021/31.html"
   },
   {
-    "id": "second-uniform-tax-case-1957",
-    "name": "Victoria v Commonwealth",
-    "shortName": "Second Uniform Tax Case",
-    "year": 1957,
+    "id": "nzyq-2023",
+    "name": "NZYQ v Minister for Immigration",
+    "shortName": "NZYQ",
+    "year": 2023,
     "court": "High Court of Australia",
-    "citation": "(1957) 99 CLR 575",
-    "principle": "Confirmed the validity of the uniform taxation scheme in peacetime, upholding the Commonwealth's continued dominance of the income tax field",
-    "outcome": "majority",
+    "citation": "[2023] HCA 37",
+    "principle": "Indefinite immigration detention is unconstitutional; overturned Al-Kateb v Godwin",
+    "outcome": "unanimous",
     "relatedSections": [
-      "51(ii)",
-      "96"
+      "51(xix)",
+      "71"
     ],
-    "content": "The High Court confirmed that the uniform taxation scheme, originally upheld during wartime in the First Uniform Tax Case, remained valid in peacetime. The decision cemented the Commonwealth's exclusive occupation of the income tax field and its fiscal dominance over the States, which has remained a defining feature of Australian federalism."
-  },
-  {
-    "id": "kable-v-dpp-1996",
-    "name": "Kable v Director of Public Prosecutions (NSW)",
-    "shortName": "Kable v DPP",
-    "year": 1996,
-    "court": "High Court of Australia",
-    "citation": "(1996) 189 CLR 51",
-    "principle": "Held that State legislation cannot confer functions on State courts that are incompatible with their role as repositories of federal judicial power under Chapter III",
-    "outcome": "majority",
-    "relatedSections": [
-      "71",
-      "77(iii)"
+    "relatedCases": [
+      "chu-kheng-lim-1992",
+      "al-kateb-v-godwin-2004"
     ],
-    "content": "The High Court established the Kable doctrine, holding that State courts which are invested with federal jurisdiction under Chapter III of the Constitution cannot be required by State legislation to exercise functions incompatible with their institutional integrity as courts. The Community Protection Act 1994 (NSW), which allowed preventive detention of a named individual, was struck down as repugnant to Chapter III."
+    "content": "In a unanimous decision, the Court overturned Al-Kateb v Godwin (2004) and held that the indefinite detention of a person with no real prospect of removal from Australia is unconstitutional. The Court reaffirmed the Lim principle that executive detention under the aliens power must be for a legitimate non-punitive purpose and cannot continue when that purpose can no longer be fulfilled. The decision resulted in the immediate release of approximately 149 immigration detainees.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2023/37.html"
   }
 ]
