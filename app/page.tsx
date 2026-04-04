@@ -23,9 +23,11 @@ export default function HomePage() {
   return (
     <div className={styles.container}>
       <div className={styles.hero}>
-        <div className={styles.coatOfArms}>
-          {/* Placeholder for coat of arms PNG */}
-        </div>
+        <img
+          src="/coat-of-arms.svg"
+          alt="Commonwealth Coat of Arms"
+          className={styles.coatOfArms}
+        />
         <h1 className={styles.heading}>The Constitution</h1>
         <p className={styles.subtitle}>
           Commonwealth of Australia Constitution Act 1900
