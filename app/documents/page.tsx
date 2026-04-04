@@ -17,7 +17,7 @@ export default function DocumentsPage() {
       <Link href="/referendums" className={styles.referendumBanner}>
         <span className={styles.bannerTitle}>Referendums</span>
         <span className={styles.bannerDesc}>
-          All 44 constitutional referendum proposals (1906-1999)
+          All 44 constitutional referendum proposals (1906-2023)
         </span>
         <span className={styles.bannerArrow}>&rarr;</span>
       </Link>
