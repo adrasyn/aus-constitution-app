@@ -177,7 +177,7 @@ export default async function SectionPage({
             {relatedReferendums.map((r) => (
               <Link
                 key={r.id}
-                href={`/referendums/${r.id}`}
+                href="/referendums"
                 className={`${styles.relatedCard} ${
                   r.outcome === "carried"
                     ? styles.carried
