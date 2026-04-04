@@ -10,11 +10,29 @@ interface Chapter {
   sections: number[];
 }
 
-function getSectionCount(chapter: Chapter): number {
+function getAllSections(chapter: Chapter): number[] {
   if (chapter.parts.length > 0) {
-    return chapter.parts.reduce((sum, part) => sum + part.sections.length, 0);
+    return chapter.parts.flatMap((p) => p.sections);
   }
-  return chapter.sections.length;
+  return chapter.sections;
+}
+
+function getSectionRange(chapter: Chapter): string {
+  const sections = getAllSections(chapter);
+  if (sections.length === 0) return "";
+  if (sections.length === 1) return `Section ${sections[0]}`;
+  return `Sections ${sections[0]} to ${sections[sections.length - 1]}`;
+}
+
+function toRoman(num: number): string {
+  const map: [number, string][] = [
+    [8, "VIII"], [7, "VII"], [6, "VI"], [5, "V"],
+    [4, "IV"], [3, "III"], [2, "II"], [1, "I"],
+  ];
+  for (const [val, roman] of map) {
+    if (num === val) return roman;
+  }
+  return String(num);
 }
 
 export default function HomePage() {
@@ -45,14 +63,15 @@ export default function HomePage() {
 
       <div className={styles.chapterList}>
         {chapters.map((chapter) => {
-          if (chapter.number === 9 && getSectionCount(chapter) === 0) {
-            // Schedule has no numbered sections — show it but with custom meta
-          }
-          const sectionCount = getSectionCount(chapter);
-          const label =
-            chapter.number === 0
-              ? ""
-              : `Chapter ${chapter.number === 8 ? "VIII" : chapter.number === 7 ? "VII" : chapter.number === 6 ? "VI" : chapter.number === 5 ? "V" : chapter.number === 4 ? "IV" : chapter.number === 3 ? "III" : chapter.number === 2 ? "II" : "I"}`;
+          const isSchedule = chapter.number === 9;
+          const isPreamble = chapter.number === 0;
+          const sectionRange = getSectionRange(chapter);
+
+          const label = isPreamble || isSchedule
+            ? (isSchedule ? "Schedule" : "")
+            : `Chapter ${toRoman(chapter.number)}`;
+
+          const title = isSchedule ? "Schedule" : chapter.title;
 
           return (
             <Link
@@ -62,13 +81,11 @@ export default function HomePage() {
             >
               <div className={styles.chapterHeader}>
                 {label && <span className={styles.chapterLabel}>{label}</span>}
-                <h2 className={styles.chapterTitle}>{chapter.title}</h2>
+                <h2 className={styles.chapterTitle}>{title}</h2>
               </div>
               <div className={styles.chapterMeta}>
-                {sectionCount > 0 && (
-                  <span className={styles.sectionCount}>
-                    {sectionCount} {sectionCount === 1 ? "section" : "sections"}
-                  </span>
+                {sectionRange && (
+                  <span className={styles.sectionCount}>{sectionRange}</span>
                 )}
                 {chapter.parts.length > 0 && (
                   <span className={styles.partCount}>
@@ -80,6 +97,16 @@ export default function HomePage() {
           );
         })}
       </div>
+
+      <footer className={styles.footer}>
+        <p>
+          This site is a side project by{" "}
+          <a href="https://x.com/jameswilson" target="_blank" rel="noopener noreferrer">
+            James Wilson
+          </a>{" "}
+          &#127462;&#127482;
+        </p>
+      </footer>
     </div>
   );
 }

@@ -127,3 +127,25 @@
   font-size: 0.75rem;
   color: var(--color-text-secondary);
 }
+
+/* Footer */
+.footer {
+  padding: 24px 0 16px;
+  text-align: center;
+}
+
+.footer p {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.footer a {
+  color: var(--color-text-secondary);
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: var(--color-accent-primary);
+}
