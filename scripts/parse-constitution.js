@@ -17,22 +17,21 @@ function addSection(number, title, chapter, content, notes = '') {
 }
 
 // Find the start of the actual Constitution text
-// Look for "An Act to constitute the Commonwealth of Australia"
 const actStart = raw.indexOf('An Act to constitute the Commonwealth of Australia');
 if (actStart === -1) {
   console.error('Could not find start of Constitution text');
   process.exit(1);
 }
 
-// Find the preamble — only the enacting words, not covering clauses 1-9
-const preambleStart = raw.indexOf('WHEREAS the people of');
-// End preamble at "as follows:—" before covering clause 1
-const preambleEnd = raw.indexOf('as follows:', preambleStart);
-const preambleText = raw.substring(preambleStart, preambleEnd + 'as follows:\u2014'.length).trim();
-addSection(0, 'Preamble', 0, preambleText);
+// Capture the full preamble and covering clauses (the Act text before Chapter I)
+const constitutionStart = raw.indexOf('Chapter I.', actStart);
 
-// The Constitution proper starts at Chapter I
-const constitutionStart = raw.indexOf('Chapter I.', preambleStart);
+// The preamble + covering clauses is everything from "An Act..." up to "Chapter I"
+// but we stop before the structural outline ("This Constitution is divided as follows")
+const divisionOutline = raw.indexOf('This Constitution is divided as follows', actStart);
+const preambleEnd = divisionOutline > 0 ? divisionOutline : constitutionStart;
+const preambleText = raw.substring(actStart, preambleEnd).trim();
+addSection(0, 'Preamble and Covering Clauses', 0, preambleText);
 
 // Now parse sections from Chapter I onwards
 const bodyText = raw.substring(constitutionStart);
@@ -155,6 +154,14 @@ for (let i = 0; i < lines.length; i++) {
 
 // Flush last section
 flushSection();
+
+// Add the Schedule (Oath and Affirmation) manually from the raw text
+const scheduleStart = raw.indexOf('SCHEDULE.', 80000); // second occurrence, after the TOC one
+if (scheduleStart > 0) {
+  const endnotesStart = raw.indexOf('Endnotes', scheduleStart);
+  const scheduleText = raw.substring(scheduleStart, endnotesStart > 0 ? endnotesStart : undefined).trim();
+  addSection('schedule', 'The Schedule', 9, scheduleText);
+}
 
 // Handle section 127 (repealed - not in the document)
 const has127 = sections.find(s => s.number === 127);

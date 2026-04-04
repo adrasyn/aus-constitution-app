@@ -1,9 +1,9 @@
 [
   {
     "number": 0,
-    "title": "Preamble",
+    "title": "Preamble and Covering Clauses",
     "chapter": 0,
-    "content": "WHEREAS the people of New South Wales, Victoria, South Australia, Queensland, and Tasmania, humbly relying on the blessing of Almighty God, have agreed to unite in one indissoluble Federal Commonwealth under the Crown of the United Kingdom of Great Britain and Ireland, and under the Constitution hereby established:\n\n\t\tAnd whereas it is expedient to provide for the admission into the Commonwealth of other Australasian Colonies and possessions of the Queen:\n\n\t\tBe it therefore enacted by the Queen’s most Excellent Majesty, by and with the advice and consent of the Lords Spiritual and Temporal, and Commons, in this present Parliament assembled, and by the authority of the same, as follows:—",
+    "content": "An Act to constitute the Commonwealth of Australia.\n\n\t\tWHEREAS the people of New South Wales, Victoria, South Australia, Queensland, and Tasmania, humbly relying on the blessing of Almighty God, have agreed to unite in one indissoluble Federal Commonwealth under the Crown of the United Kingdom of Great Britain and Ireland, and under the Constitution hereby established:\n\n\t\tAnd whereas it is expedient to provide for the admission into the Commonwealth of other Australasian Colonies and possessions of the Queen:\n\n\t\tBe it therefore enacted by the Queen’s most Excellent Majesty, by and with the advice and consent of the Lords Spiritual and Temporal, and Commons, in this present Parliament assembled, and by the authority of the same, as follows:—\n\n1.  Short title.\n\n\t\tThis Act may be cited as the Commonwealth of Australia Constitution Act.\n\n2.  Act to extend to the Queen’s successors.\n\n\t\tThe provisions of this Act referring to the Queen shall extend to Her Majesty’s heirs and successors in the sovereignty of the United Kingdom.\n\n3.  Proclamation of Commonwealth.\n\n\t\tIt shall be lawful for the Queen, with the advice of the Privy Council, to declare by proclamation that, on and after a day therein appointed, not being later than one year after the passing of this Act, the people of New South Wales, Victoria, South Australia, Queensland, and Tasmania, and also, if Her Majesty is satisfied that the people of Western Australia have agreed thereto, of Western Australia, shall be united in a Federal Commonwealth under the name of the Commonwealth of Australia.  But the Queen may, at any time after the proclamation, appoint a Governor‑General for the Commonwealth.\n\n4.  Commencement of Act.\n\n\t\tThe Commonwealth shall be established, and the Constitution of the Commonwealth shall take effect, on and after the day so appointed.  But the Parliaments of the several colonies may at any time after the passing of this Act make any such laws, to come into operation on the day so appointed, as they might have made if the Constitution had taken effect at the passing of this Act.\n\n5.  Operation of the Constitution and laws.\n\n\t\tThis Act, and all laws made by the Parliament of the Commonwealth under the Constitution, shall be binding on the courts, judges, and people of every State and of every part of the Commonwealth, notwithstanding anything in the laws of any State; and the laws of the Commonwealth shall be in force on all British ships, the Queen’s ships of war excepted, whose first port of clearance and whose port of destination are in the Commonwealth.\n\n6.  Definitions.\n\n“The Commonwealth” shall mean the Commonwealth of Australia as established under this Act.\n\n“The States” shall mean such of the colonies of New South Wales, New Zealand, Queensland, Tasmania, Victoria, Western Australia, and South Australia, including the northern territory of South Australia, as for the time being are parts of the Commonwealth, and such colonies or territories as may be admitted into or established by the Commonwealth as States; and each of such parts of the Commonwealth shall be called “a State.”\n\n“Original States” shall mean such States as are parts of the Commonwealth at its establishment.\n\n7.  Repeal of Federal Council Act. \n\n\t\tThe Federal Council of Australasia Act, 1885, is hereby repealed, but so as not to affect any laws passed by the Federal Council of Australasia and in force at the establishment of the Commonwealth.\n\n\t\tAny such law may be repealed as to any State by the Parliament of the Commonwealth, or as to any colony not being a State by the Parliament thereof.\n\n8.  Application of Colonial Boundaries Act.\n\n\t\tAfter the passing of this Act the Colonial Boundaries Act, 1895, shall not apply to any colony which becomes a State of the Commonwealth; but the Commonwealth shall be taken to be a self‑governing colony for the purposes of that Act.\n\n9.  Constitution.\n\n\t\tThe Constitution of the Commonwealth shall be as follows:—\n\nThe Constitution.",
     "relatedCases": [],
     "relatedReferendums": [],
     "relatedDocuments": [],
@@ -1280,16 +1280,6 @@
     "notes": ""
   },
   {
-    "number": 127,
-    "title": "Aborigines not to be counted in reckoning population",
-    "chapter": 7,
-    "content": "[Repealed]",
-    "relatedCases": [],
-    "relatedReferendums": [],
-    "relatedDocuments": [],
-    "notes": "Section 127 was repealed by the Constitution Alteration (Aboriginals) 1967. The original text provided: \"In reckoning the numbers of the people of the Commonwealth, or of a State or other part of the Commonwealth, aboriginal natives shall not be counted.\""
-  },
-  {
     "number": 128,
     "title": "Mode of altering the Constitution",
     "chapter": 8,
@@ -1298,5 +1288,25 @@
     "relatedReferendums": [],
     "relatedDocuments": [],
     "notes": "Section 128 was amended by the Constitution Alteration (Referendums) 1977, extending voting rights to Territory electors."
+  },
+  {
+    "number": "schedule",
+    "title": "The Schedule",
+    "chapter": 9,
+    "content": "SCHEDULE.\n\n  \n\nOATH.\n\nI, A.B., do swear that I will be faithful and bear true allegiance to Her Majesty Queen Victoria, Her heirs and successors according to law.  SO HELP ME GOD !\n\nAFFIRMATION.\n\nI, A.B., do solemnly and sincerely affirm and declare that I will be faithful and bear true allegiance to Her Majesty Queen Victoria, Her heirs and successors according to law.\n\n(NOTE.—The name of the King or Queen of the United Kingdom of Great Britain and Ireland for the time being is to be substituted from time to time.)",
+    "relatedCases": [],
+    "relatedReferendums": [],
+    "relatedDocuments": [],
+    "notes": ""
+  },
+  {
+    "number": 127,
+    "title": "Aborigines not to be counted in reckoning population",
+    "chapter": 7,
+    "content": "[Repealed]",
+    "relatedCases": [],
+    "relatedReferendums": [],
+    "relatedDocuments": [],
+    "notes": "Section 127 was repealed by the Constitution Alteration (Aboriginals) 1967. The original text provided: \"In reckoning the numbers of the people of the Commonwealth, or of a State or other part of the Commonwealth, aboriginal natives shall not be counted.\""
   }
 ]

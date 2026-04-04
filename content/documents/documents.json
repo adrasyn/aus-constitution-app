@@ -5,8 +5,13 @@
     "year": 1900,
     "description": "The nine clauses that precede the Constitution proper in the Commonwealth of Australia Constitution Act 1900",
     "content": "The covering clauses form part of the Commonwealth of Australia Constitution Act 1900 (Imp). They established the Commonwealth of Australia, provided for the application of the Constitution as clause 9 of the Act, and dealt with transitional matters including the appointment of the first Governor-General. Clauses 2 through 5 address the Act's operation, the proclamation of the Commonwealth, its commencement, and the binding nature of the Constitution on the courts, judges, and people of every State.",
-    "relatedSections": ["s1", "s2", "s3", "s61"],
-    "sourceUrl": "https://www.legislation.gov.au/C2004Q00685/latest/text"
+    "relatedSections": [
+      "s1",
+      "s2",
+      "s3",
+      "s61"
+    ],
+    "sourceUrl": ""
   },
   {
     "id": "constitution-act-1900",
@@ -14,8 +19,11 @@
     "year": 1900,
     "description": "The Act of the Imperial Parliament at Westminster that established the Commonwealth of Australia and contained the Constitution as Section 9",
     "content": "The Commonwealth of Australia Constitution Act 1900 was passed by the Parliament of the United Kingdom on 5 July 1900 and received Royal Assent on 9 July 1900. The Act gave effect to the Constitution agreed upon by the Australian colonies through a series of conventions and referendums in the 1890s. It was an Act of the Imperial Parliament, meaning that until the Australia Acts 1986, it could technically be amended by Westminster. The Constitution itself is contained in clause 9 of this Act, while the covering clauses deal with the broader legal framework.",
-    "relatedSections": ["s1", "s128"],
-    "sourceUrl": "https://www.legislation.gov.au/C2004Q00685/latest/text"
+    "relatedSections": [
+      "s1",
+      "s128"
+    ],
+    "sourceUrl": ""
   },
   {
     "id": "statute-of-westminster-1931",
@@ -23,8 +31,11 @@
     "year": 1931,
     "description": "United Kingdom legislation that recognised the legislative independence of the Dominions, including Australia",
     "content": "The Statute of Westminster 1931 was an Act of the Parliament of the United Kingdom that established the legislative independence of the self-governing Dominions of the British Empire, including Australia, Canada, and South Africa. It provided that no Act of the UK Parliament would extend to a Dominion unless the Dominion had requested and consented to its enactment. Australia did not adopt the Statute until 1942, backdated to 1939, reflecting a cautious approach to formal constitutional independence while the country was already functionally autonomous in most respects.",
-    "relatedSections": ["s51", "s61"],
-    "sourceUrl": "https://www.legislation.gov.uk/ukpga/Geo5/22-23/4"
+    "relatedSections": [
+      "s51",
+      "s61"
+    ],
+    "sourceUrl": ""
   },
   {
     "id": "westminster-adoption-act-1942",
@@ -32,8 +43,12 @@
     "year": 1942,
     "description": "Australian legislation adopting the Statute of Westminster 1931, backdated to 3 September 1939",
     "content": "The Statute of Westminster Adoption Act 1942 (Cth) formally adopted the Statute of Westminster 1931 in Australia, backdating its effect to 3 September 1939—the date of the commencement of the Second World War. This backdating was important to validate wartime legislation that may have been inconsistent with United Kingdom law. The adoption confirmed that the Commonwealth Parliament could legislate inconsistently with Imperial legislation, a significant step in Australia's progression toward full legislative independence.",
-    "relatedSections": ["s51", "s61", "s109"],
-    "sourceUrl": "https://www.legislation.gov.au/C2004A07524/latest/text"
+    "relatedSections": [
+      "s51",
+      "s61",
+      "s109"
+    ],
+    "sourceUrl": ""
   },
   {
     "id": "australia-acts-1986",
@@ -41,8 +56,12 @@
     "year": 1986,
     "description": "Parallel legislation of the Commonwealth and United Kingdom parliaments that severed remaining constitutional links between Australia and the UK",
     "content": "The Australia Acts 1986 were passed in parallel by the Commonwealth Parliament and the Parliament of the United Kingdom, coming into effect on 3 March 1986. They severed the remaining constitutional links between Australia and the United Kingdom by terminating the ability of the UK Parliament to legislate for Australia and abolishing appeals from Australian courts to the Privy Council. The Acts also gave the States full legislative power, free from the constraints of the Colonial Laws Validity Act 1865, and confirmed that the laws of the United Kingdom would no longer apply to any State.",
-    "relatedSections": ["s73", "s74", "s106"],
-    "sourceUrl": "https://www.legislation.gov.au/C2004A03181/latest/text"
+    "relatedSections": [
+      "s73",
+      "s74",
+      "s106"
+    ],
+    "sourceUrl": ""
   },
   {
     "id": "royal-proclamation-1901",
@@ -50,17 +69,25 @@
     "year": 1901,
     "description": "Queen Victoria's proclamation of 17 September 1900 declaring the establishment of the Commonwealth of Australia from 1 January 1901",
     "content": "On 17 September 1900, Queen Victoria issued a Royal Proclamation declaring that on and after 1 January 1901, the people of New South Wales, Victoria, South Australia, Queensland, Tasmania, and Western Australia would be united in a Federal Commonwealth under the name of the Commonwealth of Australia. The inauguration ceremony took place in Centennial Park, Sydney, where the Earl of Hopetoun was sworn in as the first Governor-General. This proclamation gave practical effect to clause 3 of the covering clauses of the Constitution Act.",
-    "relatedSections": ["s1", "s2", "s3"],
-    "sourceUrl": "https://www.foundingdocs.gov.au/item-did-15.html"
+    "relatedSections": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "sourceUrl": ""
   },
   {
     "id": "royal-commission-1929",
-    "title": "Royal Commission on the Constitution (1927\u20131929)",
+    "title": "Royal Commission on the Constitution (1927–1929)",
     "year": 1929,
     "description": "A Royal Commission appointed to inquire into the workings of the Australian Constitution and the need for amendment",
     "content": "The Royal Commission on the Constitution was appointed in 1927 under the Chairmanship of Sir John Peden and reported in 1929. It examined the financial relations between the Commonwealth and the States, the distribution of legislative powers, and various proposed amendments to the Constitution. While few of its recommendations were ultimately adopted, the Commission's report remains a significant historical document for understanding early debates about Australian federalism and the adequacy of the constitutional framework established in 1901.",
-    "relatedSections": ["s51", "s96", "s128"],
-    "sourceUrl": "https://nla.gov.au/nla.obj-1722426605"
+    "relatedSections": [
+      "s51",
+      "s96",
+      "s128"
+    ],
+    "sourceUrl": ""
   },
   {
     "id": "convention-1891",
@@ -68,16 +95,26 @@
     "year": 1891,
     "description": "The first major constitutional convention held in Sydney, which produced an initial draft of the Australian Constitution",
     "content": "The National Australasian Convention met in Sydney from 2 March to 9 April 1891, attended by delegates from all six Australian colonies and New Zealand. Presided over by Sir Henry Parkes, the convention produced a draft constitution largely prepared by Sir Samuel Griffith, Andrew Inglis Clark, and Charles Kingston. Although the 1891 draft was never put to a popular vote due to political difficulties in several colonies, it laid the groundwork for the later conventions and heavily influenced the final text of the Constitution adopted in 1900.",
-    "relatedSections": ["s1", "s51", "s71"],
-    "sourceUrl": "https://www.aph.gov.au/About_Parliament/Senate/Powers_practice_n_procedures/Constitution/convention"
+    "relatedSections": [
+      "s1",
+      "s51",
+      "s71"
+    ],
+    "sourceUrl": ""
   },
   {
     "id": "conventions-1897-98",
-    "title": "Australasian Federal Conventions (1897\u20131898)",
+    "title": "Australasian Federal Conventions (1897–1898)",
     "year": 1897,
     "description": "The series of elected conventions in Adelaide, Sydney, and Melbourne that produced the final draft of the Australian Constitution",
-    "content": "The Australasian Federal Conventions of 1897\u20131898 were a series of three sessions held in Adelaide (March\u2013April 1897), Sydney (September 1897), and Melbourne (January\u2013March 1898). Unlike the 1891 Convention, delegates were popularly elected in most colonies, giving the process greater democratic legitimacy. The conventions revised the 1891 draft substantially, strengthening the Senate's powers, refining the financial provisions, and establishing the High Court under Chapter III. The resulting draft was submitted to referendums in each colony and, after amendments to satisfy concerns raised by New South Wales, was approved by the voters and forwarded to the Imperial Parliament for enactment.",
-    "relatedSections": ["s7", "s24", "s51", "s71", "s128"],
-    "sourceUrl": "https://www.aph.gov.au/About_Parliament/Senate/Powers_practice_n_procedures/Constitution/convention"
+    "content": "The Australasian Federal Conventions of 1897–1898 were a series of three sessions held in Adelaide (March–April 1897), Sydney (September 1897), and Melbourne (January–March 1898). Unlike the 1891 Convention, delegates were popularly elected in most colonies, giving the process greater democratic legitimacy. The conventions revised the 1891 draft substantially, strengthening the Senate's powers, refining the financial provisions, and establishing the High Court under Chapter III. The resulting draft was submitted to referendums in each colony and, after amendments to satisfy concerns raised by New South Wales, was approved by the voters and forwarded to the Imperial Parliament for enactment.",
+    "relatedSections": [
+      "s7",
+      "s24",
+      "s51",
+      "s71",
+      "s128"
+    ],
+    "sourceUrl": ""
   }
 ]

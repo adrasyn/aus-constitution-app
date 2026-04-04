@@ -52,7 +52,9 @@ export default function HomePage() {
 
       <div className={styles.chapterList}>
         {chapters.map((chapter) => {
-          if (chapter.number === 9) return null; // Schedule — handle separately if needed
+          if (chapter.number === 9 && getSectionCount(chapter) === 0) {
+            // Schedule has no numbered sections — show it but with custom meta
+          }
           const sectionCount = getSectionCount(chapter);
           const label =
             chapter.number === 0

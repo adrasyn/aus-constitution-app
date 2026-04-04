@@ -126,3 +126,15 @@
   color: var(--color-text-primary);
   line-height: 1.4;
 }
+
+/* Inline content for preamble and schedule */
+.inlineContent {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+}
+
+.inlineContent p {
+  margin-bottom: 0.875rem;
+}
