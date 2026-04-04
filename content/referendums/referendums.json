@@ -9,7 +9,9 @@
     "yesPercentage": 82.65,
     "statesFor": 6,
     "statesAgainst": 0,
-    "relatedSections": ["13"],
+    "relatedSections": [
+      "13"
+    ],
     "content": "This amendment altered the timing of Senate elections to synchronise them with House of Representatives elections. It passed with strong support in all six states."
   },
   {
@@ -22,7 +24,11 @@
     "yesPercentage": 49.04,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["87", "93", "94"],
+    "relatedSections": [
+      "87",
+      "93",
+      "94"
+    ],
     "content": "This proposal sought to extend the Braddon clause arrangement regarding the distribution of customs and excise revenue to the states. It narrowly failed to obtain the required double majority."
   },
   {
@@ -35,7 +41,9 @@
     "yesPercentage": 54.95,
     "statesFor": 4,
     "statesAgainst": 2,
-    "relatedSections": ["105"],
+    "relatedSections": [
+      "105"
+    ],
     "content": "This amendment expanded the Commonwealth's power to take over state debts beyond those existing at federation. It was carried with a national majority and support from four states."
   },
   {
@@ -48,7 +56,9 @@
     "yesPercentage": 39.42,
     "statesFor": 0,
     "statesAgainst": 6,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to extend Commonwealth power over trade and commerce beyond interstate and overseas trade. It was soundly defeated in all six states."
   },
   {
@@ -61,7 +71,9 @@
     "yesPercentage": 39.89,
     "statesFor": 0,
     "statesAgainst": 6,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth power to control and nationalise monopolies. It was defeated in all six states alongside the companion Trade and Commerce referendum."
   },
   {
@@ -74,7 +86,9 @@
     "yesPercentage": 49.38,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "A revised attempt to extend Commonwealth trade and commerce powers to include intrastate trade. It came close to a national majority but failed to secure enough states."
   },
   {
@@ -87,7 +101,9 @@
     "yesPercentage": 49.33,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to broaden Commonwealth power over corporations beyond foreign, trading and financial corporations. It failed along with the other five referendums put on the same day."
   },
   {
@@ -100,7 +116,9 @@
     "yesPercentage": 49.33,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to extend Commonwealth arbitration powers to cover all industrial disputes, not merely interstate ones. It was one of six referendums defeated on the same day."
   },
   {
@@ -113,7 +131,9 @@
     "yesPercentage": 48.73,
     "statesFor": 1,
     "statesAgainst": 5,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to extend Commonwealth conciliation and arbitration power to cover railway disputes. It was the least supported of the six referendums defeated that day."
   },
   {
@@ -126,7 +146,9 @@
     "yesPercentage": 49.78,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth power to regulate trusts and combinations in restraint of trade. It came close to a national majority but still fell short of the double majority requirement."
   },
   {
@@ -139,7 +161,9 @@
     "yesPercentage": 49.33,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth power to nationalise monopolies and to conduct industries and services. It was the sixth of six referendums all defeated on 31 May 1913."
   },
   {
@@ -152,7 +176,9 @@
     "yesPercentage": 48.64,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "A further attempt by a Labor government to obtain power to nationalise monopolies. It narrowly failed to achieve a national majority and could not secure four states."
   },
   {
@@ -165,7 +191,9 @@
     "yesPercentage": 49.65,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to grant the Commonwealth broad legislative powers over trade, commerce, corporations, and industrial matters for a post-war period. It was defeated alongside the Nationalisation of Monopolies proposal."
   },
   {
@@ -175,10 +203,12 @@
     "title": "Industry and Commerce",
     "question": "Do you approve of the proposed law for the alteration of the Constitution entitled 'Constitution Alteration (Industry and Commerce) 1926'?",
     "outcome": "defeated",
-    "yesPercentage": 43.50,
+    "yesPercentage": 43.5,
     "statesFor": 1,
     "statesAgainst": 5,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth broad power over industry and commerce. It was decisively rejected, with only one state supporting the change."
   },
   {
@@ -191,7 +221,9 @@
     "yesPercentage": 42.75,
     "statesFor": 1,
     "statesAgainst": 5,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth power to ensure the continued operation of essential services during industrial disputes. It was defeated alongside the Industry and Commerce proposal."
   },
   {
@@ -201,10 +233,12 @@
     "title": "State Debts",
     "question": "Do you approve of the proposed law for the alteration of the Constitution entitled 'Constitution Alteration (State Debts) 1928'?",
     "outcome": "carried",
-    "yesPercentage": 74.30,
+    "yesPercentage": 74.3,
     "statesFor": 6,
     "statesAgainst": 0,
-    "relatedSections": ["105A"],
+    "relatedSections": [
+      "105A"
+    ],
     "content": "This amendment inserted section 105A into the Constitution, enabling the establishment of the Loan Council to coordinate state and Commonwealth borrowing. It was carried with overwhelming support in all six states."
   },
   {
@@ -217,7 +251,9 @@
     "yesPercentage": 53.56,
     "statesFor": 3,
     "statesAgainst": 3,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth explicit legislative power over aviation and aerial navigation. Despite achieving a national majority, it failed to obtain the support of four states."
   },
   {
@@ -230,7 +266,9 @@
     "yesPercentage": 36.26,
     "statesFor": 1,
     "statesAgainst": 5,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth power to regulate the marketing of primary products, including intrastate trade. It was heavily defeated, with only Western Australia in favour."
   },
   {
@@ -243,7 +281,9 @@
     "yesPercentage": 45.99,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to grant the Commonwealth 14 additional powers for a five-year post-war reconstruction period, including employment, marketing, companies and trusts. It was defeated despite wartime Labor government support."
   },
   {
@@ -256,7 +296,9 @@
     "yesPercentage": 54.39,
     "statesFor": 6,
     "statesAgainst": 0,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This amendment added a new head of power enabling the Commonwealth to provide a wide range of social services including maternity allowances, widows' pensions, unemployment and pharmaceutical benefits. It was carried in all six states."
   },
   {
@@ -269,7 +311,9 @@
     "yesPercentage": 50.57,
     "statesFor": 3,
     "statesAgainst": 3,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth power to establish organised marketing schemes for primary products. Although narrowly achieving a national majority, it failed to secure four states and was thus defeated."
   },
   {
@@ -282,7 +326,9 @@
     "yesPercentage": 40.66,
     "statesFor": 0,
     "statesAgainst": 6,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth power to control rents and prices in the post-war period. It was heavily defeated, failing to achieve a majority in any state."
   },
   {
@@ -295,7 +341,9 @@
     "yesPercentage": 49.44,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth power to dissolve the Communist Party and to deal with subversive organisations, following the High Court striking down the Communist Party Dissolution Act. It came within a fraction of a national majority but could not secure the required four states."
   },
   {
@@ -308,7 +356,10 @@
     "yesPercentage": 90.77,
     "statesFor": 6,
     "statesAgainst": 0,
-    "relatedSections": ["51", "127"],
+    "relatedSections": [
+      "51",
+      "127"
+    ],
     "content": "This landmark amendment removed the exclusion of Aboriginal people from the races power in section 51(xxvi) and deleted section 127, which had excluded Aboriginal people from population counts. It achieved the highest yes vote of any referendum in Australian history, passing in all six states."
   },
   {
@@ -321,7 +372,10 @@
     "yesPercentage": 40.25,
     "statesFor": 0,
     "statesAgainst": 6,
-    "relatedSections": ["24", "7"],
+    "relatedSections": [
+      "24",
+      "7"
+    ],
     "content": "This proposal sought to break the constitutional nexus requiring the House of Representatives to be approximately twice the size of the Senate, enabling the House to be enlarged without increasing Senate numbers. It was decisively rejected in all states despite being on the same ballot as the highly successful Aboriginals referendum."
   },
   {
@@ -334,7 +388,9 @@
     "yesPercentage": 34.42,
     "statesFor": 0,
     "statesAgainst": 6,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth permanent power to control prices. It was heavily defeated in all states, failing to achieve a majority anywhere."
   },
   {
@@ -347,7 +403,9 @@
     "yesPercentage": 34.26,
     "statesFor": 0,
     "statesAgainst": 6,
-    "relatedSections": ["51"],
+    "relatedSections": [
+      "51"
+    ],
     "content": "This proposal sought to give the Commonwealth permanent power to control incomes and wages. It was defeated alongside the Prices proposal, with no state recording a majority yes vote."
   },
   {
@@ -357,10 +415,13 @@
     "title": "Simultaneous Elections",
     "question": "Do you approve of the proposed law for the alteration of the Constitution entitled 'Constitution Alteration (Simultaneous Elections) 1974'?",
     "outcome": "defeated",
-    "yesPercentage": 48.30,
+    "yesPercentage": 48.3,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["13", "57"],
+    "relatedSections": [
+      "13",
+      "57"
+    ],
     "content": "This proposal sought to require Senate elections to be held simultaneously with House of Representatives elections. It came close to a national majority but failed to obtain four states."
   },
   {
@@ -373,7 +434,9 @@
     "yesPercentage": 47.99,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["128"],
+    "relatedSections": [
+      "128"
+    ],
     "content": "This proposal sought to allow territory residents to vote in referendums and to modify the double majority requirement for constitutional change. It was defeated in four states."
   },
   {
@@ -386,7 +449,10 @@
     "yesPercentage": 47.19,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["24", "29"],
+    "relatedSections": [
+      "24",
+      "29"
+    ],
     "content": "This proposal sought to require that each vote cast for the House of Representatives and the Senate should be of equal value, enshrining one vote one value. It was one of four referendums defeated on 18 May 1974."
   },
   {
@@ -399,7 +465,9 @@
     "yesPercentage": 46.85,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["96"],
+    "relatedSections": [
+      "96"
+    ],
     "content": "This proposal sought to allow the Commonwealth to grant financial assistance directly to local government bodies. It was the fourth of four referendums defeated on 18 May 1974."
   },
   {
@@ -412,7 +480,9 @@
     "yesPercentage": 73.32,
     "statesFor": 6,
     "statesAgainst": 0,
-    "relatedSections": ["15"],
+    "relatedSections": [
+      "15"
+    ],
     "content": "This amendment altered section 15 to require that a casual vacancy in the Senate be filled by a person of the same political party as the former senator. The change was prompted by the 1975 constitutional crisis, when state governments filled vacancies with senators from opposing parties."
   },
   {
@@ -425,7 +495,9 @@
     "yesPercentage": 77.72,
     "statesFor": 6,
     "statesAgainst": 0,
-    "relatedSections": ["128"],
+    "relatedSections": [
+      "128"
+    ],
     "content": "This amendment to section 128 allowed residents of the Australian Capital Territory and Northern Territory to vote in constitutional referendums. Territory votes are counted in the national total but not toward the state majority requirement."
   },
   {
@@ -435,10 +507,12 @@
     "title": "Retirement of Judges",
     "question": "Do you approve of the proposed law for the alteration of the Constitution entitled 'Constitution Alteration (Retirement of Judges) 1977'?",
     "outcome": "carried",
-    "yesPercentage": 80.10,
+    "yesPercentage": 80.1,
     "statesFor": 6,
     "statesAgainst": 0,
-    "relatedSections": ["72"],
+    "relatedSections": [
+      "72"
+    ],
     "content": "This amendment inserted a mandatory retirement age of 70 years for judges of federal courts established under the Constitution. It was the highest-polling of the three successful referendums held on 21 May 1977, passing in all six states."
   },
   {
@@ -451,7 +525,10 @@
     "yesPercentage": 62.22,
     "statesFor": 3,
     "statesAgainst": 3,
-    "relatedSections": ["13", "57"],
+    "relatedSections": [
+      "13",
+      "57"
+    ],
     "content": "A further attempt to require Senate elections to be held at the same time as House of Representatives elections. Although it achieved a national majority, it could not secure the support of four states and was defeated."
   },
   {
@@ -464,7 +541,9 @@
     "yesPercentage": 50.64,
     "statesFor": 2,
     "statesAgainst": 4,
-    "relatedSections": ["13"],
+    "relatedSections": [
+      "13"
+    ],
     "content": "This proposal sought to alter the commencement date of senators' terms to achieve simultaneous elections with the House. It narrowly achieved a national majority but fell short of four states."
   },
   {
@@ -477,7 +556,10 @@
     "yesPercentage": 47.06,
     "statesFor": 1,
     "statesAgainst": 5,
-    "relatedSections": ["51", "107"],
+    "relatedSections": [
+      "51",
+      "107"
+    ],
     "content": "This proposal sought to enable the Commonwealth and the states to refer legislative powers to each other more easily through a formalised mechanism. It was one of three referendums defeated on 1 December 1984."
   },
   {
@@ -490,7 +572,10 @@
     "yesPercentage": 42.15,
     "statesFor": 1,
     "statesAgainst": 5,
-    "relatedSections": ["24", "29"],
+    "relatedSections": [
+      "24",
+      "29"
+    ],
     "content": "This proposal sought to constitutionally entrench the principle of equal value of votes in elections for both houses of the Commonwealth Parliament. It was defeated in five states."
   },
   {
@@ -503,7 +588,10 @@
     "yesPercentage": 32.92,
     "statesFor": 0,
     "statesAgainst": 6,
-    "relatedSections": ["28", "32"],
+    "relatedSections": [
+      "28",
+      "32"
+    ],
     "content": "This proposal sought to extend the maximum term of the House of Representatives from three to four years and to require simultaneous elections for both houses. It was comprehensively rejected in all six states."
   },
   {
@@ -516,7 +604,10 @@
     "yesPercentage": 37.59,
     "statesFor": 0,
     "statesAgainst": 6,
-    "relatedSections": ["24", "29"],
+    "relatedSections": [
+      "24",
+      "29"
+    ],
     "content": "This proposal sought to entrench the principle of one vote one value in Commonwealth electoral laws. It was defeated in all six states, with a lower yes vote than its 1984 predecessor."
   },
   {
@@ -529,7 +620,9 @@
     "yesPercentage": 33.62,
     "statesFor": 0,
     "statesAgainst": 6,
-    "relatedSections": ["96"],
+    "relatedSections": [
+      "96"
+    ],
     "content": "This proposal sought to constitutionally recognise local government and allow the Commonwealth to grant financial assistance directly to local councils. It was one of four referendums all defeated heavily on the same day."
   },
   {
@@ -542,7 +635,11 @@
     "yesPercentage": 30.79,
     "statesFor": 0,
     "statesAgainst": 6,
-    "relatedSections": ["51", "80", "116"],
+    "relatedSections": [
+      "51",
+      "80",
+      "116"
+    ],
     "content": "This proposal sought to extend guarantees of rights and freedoms including freedom of religion, trial by jury, and just terms for acquisition of property to apply to state laws as well as Commonwealth laws. It received the lowest yes vote of the four 1988 referendums."
   },
   {
@@ -555,7 +652,12 @@
     "yesPercentage": 45.13,
     "statesFor": 0,
     "statesAgainst": 6,
-    "relatedSections": ["1", "2", "61", "64"],
+    "relatedSections": [
+      "1",
+      "2",
+      "61",
+      "64"
+    ],
     "content": "This proposal sought to replace the Queen and Governor-General with a President appointed by a two-thirds majority of Parliament. Despite widespread republican sentiment in the community, the model was rejected in all six states, partly due to disagreement over the method of selecting the president."
   },
   {
@@ -570,5 +672,18 @@
     "statesAgainst": 6,
     "relatedSections": [],
     "content": "This proposal sought to insert a new preamble to the Constitution recognising, among other things, that Aboriginal and Torres Strait Islander peoples were the custodians of the land. It was defeated in all six states, receiving a lower yes vote than the republic proposal."
+  },
+  {
+    "id": "2023-voice",
+    "year": 2023,
+    "date": "14 October 2023",
+    "title": "Aboriginal and Torres Strait Islander Voice",
+    "question": "A Proposed Law: to alter the Constitution to recognise the First Peoples of Australia by establishing an Aboriginal and Torres Strait Islander Voice. Do you approve this proposed alteration?",
+    "outcome": "defeated",
+    "yesPercentage": 39.94,
+    "statesFor": 0,
+    "statesAgainst": 6,
+    "relatedSections": [],
+    "content": "The 2023 Voice referendum proposed to enshrine an Aboriginal and Torres Strait Islander Voice to Parliament in the Constitution. It was defeated nationally with 39.94% voting yes, failing to achieve a majority in any state."
   }
 ]
