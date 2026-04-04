@@ -20,6 +20,9 @@ export default async function DocumentDetailPage({
   return (
     <div className={styles.container}>
       <nav className={styles.breadcrumb}>
+        <Link href="/documents" className={styles.backLink} aria-label="Back">
+          &larr;
+        </Link>
         <Link href="/documents" className={styles.breadcrumbLink}>
           Documents
         </Link>
@@ -37,6 +40,17 @@ export default async function DocumentDetailPage({
             <p key={i}>{p}</p>
           ))}
         </div>
+
+        {"sourceUrl" in doc && doc.sourceUrl && (
+          <a
+            href={doc.sourceUrl as string}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.sourceLink}
+          >
+            View official source document &rarr;
+          </a>
+        )}
 
         {doc.relatedSections.length > 0 && (
           <div className={styles.relatedSection}>

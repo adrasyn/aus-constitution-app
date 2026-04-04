@@ -40,6 +40,9 @@ export default async function CaseDetailPage({
   return (
     <div className={styles.container}>
       <nav className={styles.breadcrumb}>
+        <Link href="/cases" className={styles.backLink} aria-label="Back">
+          &larr;
+        </Link>
         <Link href="/cases" className={styles.breadcrumbLink}>
           Cases
         </Link>
