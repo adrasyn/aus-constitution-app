@@ -19,12 +19,25 @@
   gap: 2px;
   padding: 8px 12px;
   text-decoration: none;
-  transition: opacity 0.2s ease;
   min-width: 64px;
 }
 
-.tab:hover {
-  color: var(--color-accent-primary);
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: var(--color-text-secondary);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  transition: background-color 0.2s ease;
+}
+
+.active .icon {
+  background-color: var(--color-accent-primary);
 }
 
 .label {
