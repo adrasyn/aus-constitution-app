@@ -1,4 +1,5 @@
 import { Index } from "flexsearch";
+import { getSectionHref } from "./section-links";
 
 export interface SearchResult {
   type: "section" | "case" | "document" | "referendum";
@@ -48,7 +49,7 @@ export function buildSearchIndex(data: {
       type: "section",
       title: s.number === 0 ? "Preamble" : `s ${s.number} — ${s.title}`,
       content: s.content,
-      href: `/constitution/preamble/s${s.number}`,
+      href: getSectionHref(String(s.number)),
       meta: `Section ${s.number}`,
     };
     entries.push(entry);

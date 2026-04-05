@@ -689,5 +689,22 @@
     ],
     "content": "In a unanimous decision, the Court overturned Al-Kateb v Godwin (2004) and held that the indefinite detention of a person with no real prospect of removal from Australia is unconstitutional. The Court reaffirmed the Lim principle that executive detention under the aliens power must be for a legitimate non-punitive purpose and cannot continue when that purpose can no longer be fulfilled. The decision resulted in the immediate release of approximately 149 immigration detainees.",
     "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2023/37.html"
+  },
+  {
+    "id": "vanderstock-v-victoria-2023",
+    "name": "Vanderstock v The State of Victoria",
+    "shortName": "Vanderstock v Victoria",
+    "year": 2023,
+    "court": "High Court of Australia",
+    "citation": "[2023] HCA 30",
+    "principle": "A State tax on the use of goods (here, a per-kilometre charge on electric vehicles) is an excise duty under s 90 and therefore invalid",
+    "outcome": "majority",
+    "relatedSections": [
+      "90",
+      "92"
+    ],
+    "relatedCases": [],
+    "content": "By a 4–3 majority, the High Court struck down Victoria's per-kilometre charge on electric vehicles as an excise duty prohibited by s 90. The majority significantly broadened the definition of 'duties of excise', holding that excise is not limited to taxes at the point of production or manufacture but encompasses any tax on goods at any stage — including their use or consumption. The decisive test is whether the tax has a sufficient connection to the goods such that it could affect demand for them. This broad formulation has far-reaching constitutional implications: any State or Territory revenue measure that taxes goods, or taxes an activity in a way that may impact demand for the taxed good or service, risks invalidity under s 90. The decision constrains State fiscal autonomy and reinforces the Commonwealth's exclusive control over indirect taxation of goods.",
+    "sourceUrl": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2023/30.html"
   }
 ]

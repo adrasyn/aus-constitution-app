@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { getSectionHref } from "@/lib/section-links";
 import styles from "./page.module.css";
 
 interface Bookmark {
@@ -30,7 +31,7 @@ export default function SavedPage() {
   function getHref(bookmark: Bookmark): string {
     switch (bookmark.type) {
       case "section":
-        return `/constitution/preamble/${bookmark.id}`;
+        return getSectionHref(bookmark.id);
       case "case":
         return `/cases/${bookmark.id}`;
       case "document":
