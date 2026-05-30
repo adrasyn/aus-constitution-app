@@ -74,8 +74,8 @@ iOS 26 SDK. SF Symbols for tab icons; large navigation titles.
 Tabs:
 - **Constitution** (`book`) → Chapters list → Sections list → Section detail
 - **Cases** (`building.columns`) → Case detail
+- **Referendums** (`checkmark.seal`) → Referendum detail
 - **Documents** (`doc.text`) → Document detail
-- **Saved** (`bookmark`) → grouped saved items
 - **Search** (`Tab(role: .search)`) — rendered **separated** from the other
   tabs and morphing into a search field (see §4)
 
@@ -85,10 +85,10 @@ Each tab is its own `NavigationStack`.
 `.tabBarMinimizeBehavior(.onScrollDown)` so the Liquid Glass tab bar shrinks
 away while reading long constitution text and returns on scroll up.
 
-**Referendums entry point (resolved):** No dedicated referendums tab. The
-Constitution tab's home screen includes a "Referendums" row that opens the
-referendums list; referendums also remain reachable from related-section links.
-They are fully searchable and saveable.
+**Saved (resolved):** Saved comes off the tab bar. A **bookmark button in the
+top-right navigation bar of the Constitution home** opens the Saved list (items
+grouped by type). Referendums are now a first-class tab, so they no longer need
+a home-screen row.
 
 **Section detail screen:** serif body text, related cases / referendums /
 documents as navigable links, with bookmark toggle and share button in the
@@ -123,7 +123,8 @@ A SwiftData model stored on-device:
 }
 ```
 
-The Saved tab queries SwiftData and resolves each entry back to live content via
+The Saved list (opened from the bookmark button on the Constitution home, §3)
+queries SwiftData and resolves each entry back to live content via
 `ContentStore`, displaying items grouped by type. A bookmark toggle is available
 on every detail screen.
 
