@@ -39,6 +39,34 @@ public struct ContentStore: Sendable {
 
     // MARK: Lookups
     public func section(id: String) -> Section? { sectionsByID[id] }
+
+    /// Resolves a section reference to its base section. References may be
+    /// canonical ids ("s51"), bare numbers ("51"), alphanumeric ("105A"), or
+    /// legal sub-paragraph citations ("51(ii)", "s75(v)") as used in case data.
+    /// Mirrors the web app's section-link base-section extraction.
+    public func section(reference ref: String) -> Section? {
+        if let exact = sectionsByID[ref] { return exact }
+        if let withPrefix = sectionsByID["s\(ref)"] { return withPrefix }
+        let bare = ref.hasPrefix("s") ? String(ref.dropFirst()) : ref
+        guard let base = Self.baseSectionToken(bare) else { return nil }
+        return sectionsByID["s\(base)"]
+    }
+
+    /// Leading digits with an optional single trailing uppercase letter:
+    /// "51(ii)" -> "51", "105A" -> "105A", "(ii)" -> nil.
+    private static func baseSectionToken(_ s: String) -> String? {
+        var result = ""
+        var rest = Substring(s)
+        while let ch = rest.first, ch.isNumber {
+            result.append(ch)
+            rest = rest.dropFirst()
+        }
+        guard !result.isEmpty else { return nil }
+        if let ch = rest.first, ch.isUppercase {
+            result.append(ch)
+        }
+        return result
+    }
     public func `case`(id: String) -> Case? { casesByID[id] }
     public func referendum(id: String) -> Referendum? { referendumsByID[id] }
     public func document(id: String) -> HistoricalDocument? { documentsByID[id] }

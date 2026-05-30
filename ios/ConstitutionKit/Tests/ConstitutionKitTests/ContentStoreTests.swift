@@ -49,8 +49,18 @@ import Foundation
         }
         for kase in store.cases {
             for id in kase.relatedSections {
-                #expect(store.section(id: id) != nil, "\(kase.id) -> missing section \(id)")
+                #expect(store.section(reference: id) != nil)
             }
         }
+    }
+
+    @Test func resolvesSectionReferences() throws {
+        let store = try makeStore()
+        #expect(store.section(reference: "51")?.id == "s51")
+        #expect(store.section(reference: "s51")?.id == "s51")
+        #expect(store.section(reference: "51(ii)")?.id == "s51")
+        #expect(store.section(reference: "75(v)")?.id == "s75")
+        #expect(store.section(reference: "105A")?.id == "s105A")
+        #expect(store.section(reference: "nope") == nil)
     }
 }
