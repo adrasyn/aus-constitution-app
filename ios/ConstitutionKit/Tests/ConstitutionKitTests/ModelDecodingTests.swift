@@ -19,4 +19,21 @@ import Foundation
         // Preamble (number 0) decodes even if it lacks related-* arrays.
         #expect(sections.first { $0.id == "s0" } != nil)
     }
+
+    @Test func testDecodesAllChapters() throws {
+        let data = try loadContent("constitution/chapters.json")
+        let chapters = try JSONDecoder().decode([Chapter].self, from: data)
+
+        #expect(chapters.count == 10)
+
+        // Preamble: parts empty -> sectionIDs come from `sections`.
+        let preamble = try #require(chapters.first { $0.slug == "preamble" })
+        #expect(preamble.parts.isEmpty)
+        #expect(preamble.sectionIDs.first == "s\(preamble.sections.first!)")
+
+        // A chapter with parts: sectionIDs flatten the parts' sections.
+        let withParts = try #require(chapters.first { !$0.parts.isEmpty })
+        let expected = withParts.parts.flatMap(\.sections).map { "s\($0)" }
+        #expect(withParts.sectionIDs == expected)
+    }
 }
