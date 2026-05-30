@@ -10,6 +10,10 @@
 
 **Spec:** `docs/superpowers/specs/2026-05-30-native-ios-app-design.md`
 
+> **Implementation notes (recorded during execution):**
+> - Tests use **Swift Testing** (`import Testing`, `@Suite`/`@Test`/`#expect`/`#require`), not XCTest. Under Xcode 26 they run with plain `swift test` (no extra flags). The XCTest snippets below are superseded by Swift Testing equivalents.
+> - `Section.number` is **`String`**, not `Int`: `sections.json` contains `"105A"` and `"schedule"` as `number` values. Decoding normalises int JSON → String. (Both are absent from `chapters.json` section lists, matching the web app, so they never appear in chapter navigation.)
+
 ---
 
 ## Roadmap (this is Plan 1 of 5)
