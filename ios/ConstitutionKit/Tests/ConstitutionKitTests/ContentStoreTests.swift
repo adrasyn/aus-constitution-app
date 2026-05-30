@@ -49,7 +49,17 @@ import Foundation
         }
         for kase in store.cases {
             for id in kase.relatedSections {
-                #expect(store.section(reference: id) != nil)
+                #expect(store.section(reference: id) != nil, "case \(kase.id) -> missing section \(id)")
+            }
+        }
+        for referendum in store.referendums {
+            for id in referendum.relatedSections {
+                #expect(store.section(reference: id) != nil, "referendum \(referendum.id) -> missing section \(id)")
+            }
+        }
+        for document in store.documents {
+            for id in document.relatedSections {
+                #expect(store.section(reference: id) != nil, "document \(document.id) -> missing section \(id)")
             }
         }
     }

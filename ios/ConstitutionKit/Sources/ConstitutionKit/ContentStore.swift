@@ -52,21 +52,6 @@ public struct ContentStore: Sendable {
         return sectionsByID["s\(base)"]
     }
 
-    /// Leading digits with an optional single trailing uppercase letter:
-    /// "51(ii)" -> "51", "105A" -> "105A", "(ii)" -> nil.
-    private static func baseSectionToken(_ s: String) -> String? {
-        var result = ""
-        var rest = Substring(s)
-        while let ch = rest.first, ch.isNumber {
-            result.append(ch)
-            rest = rest.dropFirst()
-        }
-        guard !result.isEmpty else { return nil }
-        if let ch = rest.first, ch.isUppercase {
-            result.append(ch)
-        }
-        return result
-    }
     public func `case`(id: String) -> Case? { casesByID[id] }
     public func referendum(id: String) -> Referendum? { referendumsByID[id] }
     public func document(id: String) -> HistoricalDocument? { documentsByID[id] }
@@ -84,5 +69,24 @@ public struct ContentStore: Sendable {
     }
     public func documents(for section: Section) -> [HistoricalDocument] {
         section.relatedDocuments.compactMap { documentsByID[$0] }
+    }
+
+    // MARK: Private
+
+    /// Leading digits plus an optional single uppercase letter, ignoring any
+    /// trailing characters: "51(ii)" -> "51", "105A" -> "105A", "75(v)" -> "75",
+    /// "(ii)" -> nil. Lowercase or extra trailing characters are dropped.
+    private static func baseSectionToken(_ s: String) -> String? {
+        var result = ""
+        var rest = Substring(s)
+        while let ch = rest.first, ch.isNumber {
+            result.append(ch)
+            rest = rest.dropFirst()
+        }
+        guard !result.isEmpty else { return nil }
+        if let ch = rest.first, ch.isUppercase {
+            result.append(ch)
+        }
+        return result
     }
 }
