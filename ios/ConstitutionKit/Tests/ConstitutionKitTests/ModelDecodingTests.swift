@@ -36,4 +36,26 @@ import Foundation
         let expected = withParts.parts.flatMap(\.sections).map { "s\($0)" }
         #expect(withParts.sectionIDs == expected)
     }
+
+    @Test func testDecodesCasesReferendumsDocuments() throws {
+        let cases = try JSONDecoder().decode(
+            [Case].self, from: loadContent("cases/cases.json"))
+        #expect(cases.count == 41)
+        let demden = try #require(cases.first { $0.id == "demden-v-pedder-1904" })
+        #expect(demden.year == 1904)
+        #expect(demden.citation == "(1904) 1 CLR 91")
+        #expect(demden.sourceUrl != nil)
+
+        let referendums = try JSONDecoder().decode(
+            [Referendum].self, from: loadContent("referendums/referendums.json"))
+        #expect(referendums.count == 45)
+        let senate = try #require(referendums.first { $0.id == "1906-senate-elections" })
+        #expect(senate.outcome == "carried")
+        #expect(abs(senate.yesPercentage - 82.65) < 0.001)
+
+        let documents = try JSONDecoder().decode(
+            [HistoricalDocument].self, from: loadContent("documents/documents.json"))
+        #expect(documents.count == 5)
+        #expect(documents.first { $0.id == "constitution-act-1900" } != nil)
+    }
 }
