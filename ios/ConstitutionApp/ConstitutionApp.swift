@@ -8,6 +8,7 @@ struct ConstitutionApp: App {
     var body: some Scene {
         WindowGroup {
             RootTabView(store: store)
+                .tint(.accentGreen)
         }
     }
 }
