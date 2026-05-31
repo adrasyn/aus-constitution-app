@@ -8,39 +8,45 @@ struct DocumentDetailView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                VStack(alignment: .leading, spacing: 6) {
+                VStack(alignment: .leading, spacing: 8) {
+                    YearBadge(text: String(document.year))
                     Text(document.title)
-                        .font(.system(.title, design: .serif))
-                    Text(String(document.year))
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                        .font(AppFont.readingTitle)
+                        .foregroundStyle(Color.textPrimary)
                 }
-
                 Text(document.description)
-                    .font(.callout)
-                    .foregroundStyle(.secondary)
+                    .font(AppFont.body)
+                    .foregroundStyle(Color.textSecondary)
 
                 Text(document.content)
-                    .font(.system(.body, design: .serif))
+                    .font(AppFont.readingBody)
                     .foregroundStyle(Color.textPrimary)
                     .lineSpacing(6)
                     .textSelection(.enabled)
 
-                RelatedSection(title: "Related Sections",
-                               items: store.sections(forReferences: document.relatedSections)) {
-                    $0.number == "0" ? "Preamble" : "Section \($0.number)"
+                let sections = store.sections(forReferences: document.relatedSections)
+                if !sections.isEmpty {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("RELATED SECTIONS").font(AppFont.badge).tracking(0.5)
+                            .foregroundStyle(Color.textSecondary)
+                        FlowLayout(spacing: 4) {
+                            ForEach(document.relatedSections, id: \.self) { ref in
+                                SectionRefPill(reference: ref, store: store)
+                            }
+                        }
+                    }
                 }
 
                 if let urlString = document.sourceUrl, let url = URL(string: urlString) {
-                    Link("View source", destination: url)
-                        .font(.callout)
+                    Link("View source", destination: url).font(AppFont.body)
                 }
             }
-            .padding()
+            .padding(.horizontal, 16)
+            .padding(.vertical, 20)
             .frame(maxWidth: .infinity, alignment: .leading)
         }
         .background(Color.appBackground)
-        .navigationTitle(document.title)
+        .navigationTitle(String(document.year))
         .navigationBarTitleDisplayMode(.inline)
         .tabBarMinimizeBehavior(.onScrollDown)
     }
