@@ -1,0 +1,33 @@
+name: ConstitutionApp
+options:
+  bundleIdPrefix: au.constitution
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+packages:
+  ConstitutionKit:
+    path: ConstitutionKit
+targets:
+  ConstitutionApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: ConstitutionApp
+      # Shared content from the repo root, bundled as a folder reference so the
+      # on-disk structure (content/constitution/sections.json, ...) is preserved.
+      - path: ../content
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - package: ConstitutionKit
+    settings:
+      base:
+        INFOPLIST_FILE: ConstitutionApp/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: au.constitution.app
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "6.0"
+        GENERATE_INFOPLIST_FILE: NO
+        ENABLE_USER_SCRIPT_SANDBOXING: YES
