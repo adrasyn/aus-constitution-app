@@ -10,13 +10,13 @@ struct RootTabView: View {
                 ChapterListView(store: store)
             }
             Tab("Cases", systemImage: "building.columns") {
-                PlaceholderView(title: "Cases", systemImage: "building.columns")
+                CaseListView(store: store)
             }
             Tab("Referendums", systemImage: "checkmark.seal") {
-                PlaceholderView(title: "Referendums", systemImage: "checkmark.seal")
+                ReferendumListView(store: store)
             }
             Tab("Documents", systemImage: "doc.text") {
-                PlaceholderView(title: "Documents", systemImage: "doc.text")
+                DocumentListView(store: store)
             }
             Tab(role: .search) {
                 PlaceholderView(title: "Search", systemImage: "magnifyingglass")

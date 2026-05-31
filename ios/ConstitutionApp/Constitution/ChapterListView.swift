@@ -7,23 +7,19 @@ struct ChapterListView: View {
     var body: some View {
         NavigationStack {
             List(store.chapters) { chapter in
+                let count = store.sections(for: chapter).count
                 NavigationLink(value: chapter) {
                     VStack(alignment: .leading, spacing: 4) {
                         Text(chapter.title)
                             .font(.headline)
-                        Text("\(store.sections(for: chapter).count) sections")
+                        Text(count == 1 ? "1 section" : "\(count) sections")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
                     }
                 }
             }
             .navigationTitle("Constitution")
-            .navigationDestination(for: Chapter.self) { chapter in
-                SectionListView(store: store, chapter: chapter)
-            }
-            .navigationDestination(for: ConstitutionKit.Section.self) { section in
-                SectionDetailView(store: store, section: section)
-            }
+            .contentDestinations(store: store)
         }
     }
 }
