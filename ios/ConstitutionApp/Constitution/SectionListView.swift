@@ -6,18 +6,31 @@ struct SectionListView: View {
     let chapter: Chapter
 
     var body: some View {
-        List(store.sections(for: chapter)) { section in
-            NavigationLink(value: section) {
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(section.number == "0" ? "Preamble" : "Section \(section.number)")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                    Text(section.title)
-                        .font(.body)
+        ScrollView {
+            VStack(alignment: .leading, spacing: 16) {
+                ScreenHeader(title: chapter.title, subtitle: nil)
+                LazyVStack(spacing: 10) {
+                    ForEach(store.sections(for: chapter)) { section in
+                        NavigationLink(value: section) {
+                            ContentCard(accent: .accentGreen) {
+                                Text(section.number == "0" ? "Preamble" : "Section \(section.number)")
+                                    .font(AppFont.monoSmall)
+                                    .foregroundStyle(Color.textSecondary)
+                                Text(section.title)
+                                    .font(AppFont.cardTitle)
+                                    .foregroundStyle(Color.textPrimary)
+                            }
+                        }
+                        .buttonStyle(.plain)
+                    }
                 }
             }
+            .padding(.horizontal, 16)
+            .padding(.bottom, 24)
         }
+        .background(Color.appBackground)
         .navigationTitle(chapter.title)
         .navigationBarTitleDisplayMode(.inline)
+        .tabBarMinimizeBehavior(.onScrollDown)
     }
 }
