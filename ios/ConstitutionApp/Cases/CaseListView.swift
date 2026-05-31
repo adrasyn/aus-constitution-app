@@ -23,6 +23,8 @@ struct CaseListView: View {
             }
             .navigationTitle("Cases")
             .contentDestinations(store: store)
+            .scrollContentBackground(.hidden)
+            .background(Color.appBackground)
         }
     }
 }

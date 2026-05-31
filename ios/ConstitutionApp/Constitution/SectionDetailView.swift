@@ -13,6 +13,7 @@ struct SectionDetailView: View {
 
                 Text(section.content)
                     .font(.system(.body, design: .serif))
+                    .foregroundStyle(Color.textPrimary)
                     .lineSpacing(6)
                     .textSelection(.enabled)
 
@@ -32,6 +33,7 @@ struct SectionDetailView: View {
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .background(Color.appBackground)
         .navigationTitle(section.number == "0" ? "Preamble" : "Section \(section.number)")
         .navigationBarTitleDisplayMode(.inline)
         .tabBarMinimizeBehavior(.onScrollDown)

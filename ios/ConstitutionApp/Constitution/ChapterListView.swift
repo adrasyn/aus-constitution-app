@@ -20,6 +20,8 @@ struct ChapterListView: View {
             }
             .navigationTitle("Constitution")
             .contentDestinations(store: store)
+            .scrollContentBackground(.hidden)
+            .background(Color.appBackground)
         }
     }
 }

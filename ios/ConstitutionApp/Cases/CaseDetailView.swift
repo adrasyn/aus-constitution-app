@@ -24,6 +24,7 @@ struct CaseDetailView: View {
 
                 Text(legalCase.content)
                     .font(.system(.body, design: .serif))
+                    .foregroundStyle(Color.textPrimary)
                     .lineSpacing(6)
                     .textSelection(.enabled)
 
@@ -44,6 +45,7 @@ struct CaseDetailView: View {
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .background(Color.appBackground)
         .navigationTitle(legalCase.shortName ?? legalCase.name)
         .navigationBarTitleDisplayMode(.inline)
         .tabBarMinimizeBehavior(.onScrollDown)

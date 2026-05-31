@@ -29,6 +29,8 @@ struct ReferendumListView: View {
             }
             .navigationTitle("Referendums")
             .contentDestinations(store: store)
+            .scrollContentBackground(.hidden)
+            .background(Color.appBackground)
         }
     }
 }

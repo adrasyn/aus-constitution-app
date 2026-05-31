@@ -25,6 +25,7 @@ struct ReferendumDetailView: View {
 
                 Text(referendum.content)
                     .font(.system(.body, design: .serif))
+                    .foregroundStyle(Color.textPrimary)
                     .lineSpacing(6)
                     .textSelection(.enabled)
 
@@ -36,6 +37,7 @@ struct ReferendumDetailView: View {
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .background(Color.appBackground)
         .navigationTitle(String(referendum.year))
         .navigationBarTitleDisplayMode(.inline)
         .tabBarMinimizeBehavior(.onScrollDown)

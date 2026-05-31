@@ -23,6 +23,8 @@ struct DocumentListView: View {
             }
             .navigationTitle("Documents")
             .contentDestinations(store: store)
+            .scrollContentBackground(.hidden)
+            .background(Color.appBackground)
         }
     }
 }

@@ -22,6 +22,7 @@ struct DocumentDetailView: View {
 
                 Text(document.content)
                     .font(.system(.body, design: .serif))
+                    .foregroundStyle(Color.textPrimary)
                     .lineSpacing(6)
                     .textSelection(.enabled)
 
@@ -38,6 +39,7 @@ struct DocumentDetailView: View {
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .background(Color.appBackground)
         .navigationTitle(document.title)
         .navigationBarTitleDisplayMode(.inline)
         .tabBarMinimizeBehavior(.onScrollDown)
