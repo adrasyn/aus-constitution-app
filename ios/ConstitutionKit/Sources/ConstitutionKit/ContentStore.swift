@@ -61,6 +61,19 @@ public struct ContentStore: Sendable {
     public func sections(for chapter: Chapter) -> [Section] {
         chapter.sectionIDs.compactMap { sectionsByID[$0] }
     }
+
+    /// Resolves section references (possibly sub-paragraph citations like
+    /// "51(ii)") to sections, dropping unresolvable ones and de-duplicating
+    /// while preserving first-seen order.
+    public func sections(forReferences refs: [String]) -> [Section] {
+        var seen = Set<String>()
+        var result: [Section] = []
+        for ref in refs {
+            guard let section = section(reference: ref), seen.insert(section.id).inserted else { continue }
+            result.append(section)
+        }
+        return result
+    }
     public func cases(for section: Section) -> [Case] {
         section.relatedCases.compactMap { casesByID[$0] }
     }

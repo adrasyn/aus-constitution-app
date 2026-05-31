@@ -73,4 +73,14 @@ import Foundation
         #expect(store.section(reference: "105A")?.id == "s105A")
         #expect(store.section(reference: "nope") == nil)
     }
+
+    @Test func sectionsForReferencesDedupsAndPreservesOrder() throws {
+        let store = try makeStore()
+        // "51(ii)" and "51(vi)" both resolve to s51 -> appear once; order preserved.
+        let result = store.sections(forReferences: ["75(v)", "51(ii)", "51(vi)"])
+        #expect(result.map(\.id) == ["s75", "s51"])
+        // Unresolvable refs are dropped.
+        #expect(store.sections(forReferences: ["nope", "51"]).map(\.id) == ["s51"])
+        #expect(store.sections(forReferences: []).isEmpty)
+    }
 }
