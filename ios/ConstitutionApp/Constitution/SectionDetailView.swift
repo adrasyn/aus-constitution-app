@@ -16,23 +16,17 @@ struct SectionDetailView: View {
                     .lineSpacing(6)
                     .textSelection(.enabled)
 
-                let cases = store.cases(for: section)
-                if !cases.isEmpty {
-                    relatedSection("Related Cases") {
-                        ForEach(cases) { Text($0.shortName ?? $0.name) }
-                    }
+                RelatedSection(title: "Related Cases",
+                               items: store.cases(for: section)) {
+                    $0.shortName ?? $0.name
                 }
-                let referendums = store.referendums(for: section)
-                if !referendums.isEmpty {
-                    relatedSection("Related Referendums") {
-                        ForEach(referendums) { Text("\($0.title) (\($0.year))") }
-                    }
+                RelatedSection(title: "Related Referendums",
+                               items: store.referendums(for: section)) {
+                    "\($0.title) (\(String($0.year)))"
                 }
-                let documents = store.documents(for: section)
-                if !documents.isEmpty {
-                    relatedSection("Related Documents") {
-                        ForEach(documents) { Text($0.title) }
-                    }
+                RelatedSection(title: "Related Documents",
+                               items: store.documents(for: section)) {
+                    $0.title
                 }
             }
             .padding()
@@ -41,18 +35,5 @@ struct SectionDetailView: View {
         .navigationTitle(section.number == "0" ? "Preamble" : "Section \(section.number)")
         .navigationBarTitleDisplayMode(.inline)
         .tabBarMinimizeBehavior(.onScrollDown)
-    }
-
-    @ViewBuilder
-    private func relatedSection<Content: View>(_ title: String,
-                                               @ViewBuilder content: () -> Content) -> some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Text(title)
-                .font(.headline)
-            content()
-                .font(.callout)
-                .foregroundStyle(.secondary)
-        }
-        .padding(.top, 8)
     }
 }
