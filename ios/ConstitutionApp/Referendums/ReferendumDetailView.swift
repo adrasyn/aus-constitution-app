@@ -5,36 +5,58 @@ struct ReferendumDetailView: View {
     let store: ContentStore
     let referendum: Referendum
 
+    private var carried: Bool { referendum.outcome == "carried" }
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                VStack(alignment: .leading, spacing: 6) {
+                VStack(alignment: .leading, spacing: 8) {
+                    HStack {
+                        YearBadge(text: referendum.date ?? String(referendum.year))
+                        Spacer()
+                        OutcomeBadge(
+                            text: referendum.outcome,
+                            foreground: carried ? .accentGreen : .accentBurgundy,
+                            background: carried ? .tintGreen : .tintBurgundy
+                        )
+                    }
                     Text(referendum.title)
-                        .font(.system(.title, design: .serif))
-                    Text(referendum.date ?? String(referendum.year))
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                        .font(AppFont.readingTitle)
+                        .foregroundStyle(Color.textPrimary)
                 }
 
                 labelled("Question", referendum.question)
-                labelled("Outcome", referendum.outcome.capitalized)
-                labelled("Yes vote", String(format: "%.2f%%", referendum.yesPercentage))
-                if let f = referendum.statesFor, let a = referendum.statesAgainst {
-                    labelled("States", "\(f) for · \(a) against")
+                HStack(spacing: 16) {
+                    Text("\(referendum.yesPercentage, specifier: "%.2f")% yes")
+                    if let f = referendum.statesFor, let a = referendum.statesAgainst {
+                        Text("\(f)/\(f + a) states")
+                    }
                 }
+                .font(AppFont.mono)
+                .foregroundStyle(Color.textSecondary)
 
                 Text(referendum.content)
-                    .font(.system(.body, design: .serif))
+                    .font(AppFont.readingBody)
                     .foregroundStyle(Color.textPrimary)
                     .lineSpacing(6)
                     .textSelection(.enabled)
 
-                RelatedSection(title: "Related Sections",
-                               items: store.sections(forReferences: referendum.relatedSections)) {
-                    $0.number == "0" ? "Preamble" : "Section \($0.number)"
+                let sections = store.sections(forReferences: referendum.relatedSections)
+                if !sections.isEmpty {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Related Sections")
+                            .font(.headline)
+                            .foregroundStyle(Color.textPrimary)
+                        FlowLayout(spacing: 4) {
+                            ForEach(referendum.relatedSections, id: \.self) { ref in
+                                SectionRefPill(reference: ref, store: store)
+                            }
+                        }
+                    }
                 }
             }
-            .padding()
+            .padding(.horizontal, 16)
+            .padding(.vertical, 20)
             .frame(maxWidth: .infinity, alignment: .leading)
         }
         .background(Color.appBackground)
@@ -48,9 +70,10 @@ struct ReferendumDetailView: View {
         VStack(alignment: .leading, spacing: 4) {
             Text(title)
                 .font(.headline)
+                .foregroundStyle(Color.textPrimary)
             Text(value)
-                .font(.callout)
-                .foregroundStyle(.secondary)
+                .font(AppFont.body)
+                .foregroundStyle(Color.textSecondary)
         }
     }
 }
