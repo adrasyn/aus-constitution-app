@@ -7,7 +7,7 @@ struct ConstitutionApp: App {
 
     var body: some Scene {
         WindowGroup {
-            Text("Loaded \(store.sections.count) sections")
+            RootTabView(store: store)
         }
     }
 }
