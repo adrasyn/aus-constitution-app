@@ -47,6 +47,16 @@ struct ChapterListView: View {
             .background(Color.appBackground)
             .revealingNavigationTitle("Constitution")
             .contentDestinations(store: store)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink {
+                        SavedView(store: store)
+                    } label: {
+                        Image(systemName: "bookmark")
+                    }
+                    .tint(.accentGreen)
+                }
+            }
         }
     }
 }
