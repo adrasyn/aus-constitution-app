@@ -4,9 +4,14 @@ import UIKit
 
 @main
 struct ConstitutionApp: App {
-    let store = ContentStore.bundled()
+    let store: ContentStore
+    let searchIndex: SearchIndex
 
     init() {
+        let store = ContentStore.bundled()
+        self.store = store
+        self.searchIndex = SearchIndex(store: store)
+
         // Shrink only the tab-bar label font; do NOT reconfigure the background,
         // so the iOS 26 Liquid Glass material is preserved.
         let smaller = UIFont.systemFont(ofSize: 9, weight: .medium)
@@ -32,7 +37,7 @@ struct ConstitutionApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RootTabView(store: store)
+            RootTabView(store: store, index: searchIndex)
                 .tint(.accentGreen)
         }
     }

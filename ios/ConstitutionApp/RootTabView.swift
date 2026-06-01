@@ -3,6 +3,7 @@ import ConstitutionKit
 
 struct RootTabView: View {
     let store: ContentStore
+    let index: SearchIndex
 
     var body: some View {
         TabView {
@@ -19,7 +20,7 @@ struct RootTabView: View {
                 DocumentListView(store: store)
             }
             Tab(role: .search) {
-                PlaceholderView(title: "Search", systemImage: "magnifyingglass")
+                SearchView(store: store, index: index)
             }
         }
     }
