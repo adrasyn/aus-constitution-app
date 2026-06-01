@@ -32,8 +32,7 @@ struct DocumentListView: View {
                 .padding(.bottom, 24)
             }
             .background(Color.appBackground)
-            .navigationTitle("Documents")
-            .navigationBarTitleDisplayMode(.inline)
+            .revealingNavigationTitle("Documents")
             .contentDestinations(store: store)
         }
     }

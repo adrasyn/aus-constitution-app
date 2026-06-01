@@ -47,8 +47,7 @@ struct ReferendumListView: View {
                 .padding(.bottom, 24)
             }
             .background(Color.appBackground)
-            .navigationTitle("Referendums")
-            .navigationBarTitleDisplayMode(.inline)
+            .revealingNavigationTitle("Referendums")
             .contentDestinations(store: store)
         }
     }

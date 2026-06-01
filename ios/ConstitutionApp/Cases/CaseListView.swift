@@ -36,8 +36,7 @@ struct CaseListView: View {
                 .padding(.bottom, 24)
             }
             .background(Color.appBackground)
-            .navigationTitle("Cases")
-            .navigationBarTitleDisplayMode(.inline)
+            .revealingNavigationTitle("Cases")
             .contentDestinations(store: store)
         }
     }

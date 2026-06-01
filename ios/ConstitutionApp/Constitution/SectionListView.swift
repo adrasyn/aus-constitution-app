@@ -29,8 +29,7 @@ struct SectionListView: View {
             .padding(.bottom, 24)
         }
         .background(Color.appBackground)
-        .navigationTitle(chapter.title)
-        .navigationBarTitleDisplayMode(.inline)
+        .revealingNavigationTitle(chapter.title)
         .tabBarMinimizeBehavior(.onScrollDown)
     }
 }

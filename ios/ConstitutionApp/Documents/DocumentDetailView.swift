@@ -46,8 +46,7 @@ struct DocumentDetailView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
         }
         .background(Color.appBackground)
-        .navigationTitle(String(document.year))
-        .navigationBarTitleDisplayMode(.inline)
+        .revealingNavigationTitle(document.title)
         .tabBarMinimizeBehavior(.onScrollDown)
     }
 }

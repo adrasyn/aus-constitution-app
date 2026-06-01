@@ -31,8 +31,7 @@ struct ChapterListView: View {
                 .padding(.bottom, 24)
             }
             .background(Color.appBackground)
-            .navigationTitle("Constitution")
-            .navigationBarTitleDisplayMode(.inline)
+            .revealingNavigationTitle("Constitution")
             .contentDestinations(store: store)
         }
     }

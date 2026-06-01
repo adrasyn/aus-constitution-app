@@ -57,8 +57,7 @@ struct CaseDetailView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
         }
         .background(Color.appBackground)
-        .navigationTitle(legalCase.shortName ?? legalCase.name)
-        .navigationBarTitleDisplayMode(.inline)
+        .revealingNavigationTitle(legalCase.shortName ?? legalCase.name)
         .tabBarMinimizeBehavior(.onScrollDown)
     }
 

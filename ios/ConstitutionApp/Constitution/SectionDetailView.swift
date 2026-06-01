@@ -56,8 +56,7 @@ struct SectionDetailView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
         }
         .background(Color.appBackground)
-        .navigationTitle(label)
-        .navigationBarTitleDisplayMode(.inline)
+        .revealingNavigationTitle(label)
         .tabBarMinimizeBehavior(.onScrollDown)
     }
 }

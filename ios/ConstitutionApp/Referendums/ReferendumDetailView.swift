@@ -60,8 +60,7 @@ struct ReferendumDetailView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
         }
         .background(Color.appBackground)
-        .navigationTitle(String(referendum.year))
-        .navigationBarTitleDisplayMode(.inline)
+        .revealingNavigationTitle(referendum.title)
         .tabBarMinimizeBehavior(.onScrollDown)
     }
 
