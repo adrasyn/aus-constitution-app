@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 import ConstitutionKit
 import UIKit
 
@@ -39,6 +40,7 @@ struct ConstitutionApp: App {
         WindowGroup {
             RootTabView(store: store, index: searchIndex)
                 .tint(.accentGreen)
+                .modelContainer(for: SavedItem.self)
         }
     }
 }
