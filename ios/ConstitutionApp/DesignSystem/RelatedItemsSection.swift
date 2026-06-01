@@ -29,6 +29,7 @@ struct RelatedItemsSection<Item: Identifiable & Hashable>: View {
                                     .foregroundStyle(Color.textSecondary)
                             }
                         }
+                        .accessibilityElement(children: .combine)
                     }
                     .buttonStyle(.plain)
                 }

@@ -55,6 +55,7 @@ struct ChapterListView: View {
                         Image(systemName: "bookmark")
                     }
                     .tint(.accentGreen)
+                    .accessibilityLabel("Saved")
                 }
             }
         }

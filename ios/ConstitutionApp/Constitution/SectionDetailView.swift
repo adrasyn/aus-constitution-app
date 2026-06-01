@@ -63,6 +63,7 @@ struct SectionDetailView: View {
                 ShareLink(item: ShareText.section(section)) {
                     Image(systemName: "square.and.arrow.up")
                 }
+                .accessibilityLabel("Share")
                 BookmarkButton(kind: .section, contentID: section.id)
             }
         }

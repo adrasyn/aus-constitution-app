@@ -64,6 +64,7 @@ struct CaseDetailView: View {
                 ShareLink(item: ShareText.legalCase(legalCase)) {
                     Image(systemName: "square.and.arrow.up")
                 }
+                .accessibilityLabel("Share")
                 BookmarkButton(kind: .legalCase, contentID: legalCase.id)
             }
         }

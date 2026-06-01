@@ -67,6 +67,7 @@ struct ReferendumDetailView: View {
                 ShareLink(item: ShareText.referendum(referendum)) {
                     Image(systemName: "square.and.arrow.up")
                 }
+                .accessibilityLabel("Share")
                 BookmarkButton(kind: .referendum, contentID: referendum.id)
             }
         }

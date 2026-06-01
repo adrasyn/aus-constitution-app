@@ -53,6 +53,7 @@ struct DocumentDetailView: View {
                 ShareLink(item: ShareText.document(document)) {
                     Image(systemName: "square.and.arrow.up")
                 }
+                .accessibilityLabel("Share")
                 BookmarkButton(kind: .document, contentID: document.id)
             }
         }
