@@ -62,6 +62,14 @@ struct ReferendumDetailView: View {
         .background(Color.appBackground)
         .revealingNavigationTitle(referendum.title)
         .tabBarMinimizeBehavior(.onScrollDown)
+        .toolbar {
+            ToolbarItemGroup(placement: .topBarTrailing) {
+                ShareLink(item: ShareText.referendum(referendum)) {
+                    Image(systemName: "square.and.arrow.up")
+                }
+                BookmarkButton(kind: .referendum, contentID: referendum.id)
+            }
+        }
     }
 
     @ViewBuilder

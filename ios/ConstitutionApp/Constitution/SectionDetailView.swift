@@ -58,5 +58,13 @@ struct SectionDetailView: View {
         .background(Color.appBackground)
         .revealingNavigationTitle(label)
         .tabBarMinimizeBehavior(.onScrollDown)
+        .toolbar {
+            ToolbarItemGroup(placement: .topBarTrailing) {
+                ShareLink(item: ShareText.section(section)) {
+                    Image(systemName: "square.and.arrow.up")
+                }
+                BookmarkButton(kind: .section, contentID: section.id)
+            }
+        }
     }
 }

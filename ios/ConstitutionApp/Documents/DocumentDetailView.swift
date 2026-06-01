@@ -48,5 +48,13 @@ struct DocumentDetailView: View {
         .background(Color.appBackground)
         .revealingNavigationTitle(document.title)
         .tabBarMinimizeBehavior(.onScrollDown)
+        .toolbar {
+            ToolbarItemGroup(placement: .topBarTrailing) {
+                ShareLink(item: ShareText.document(document)) {
+                    Image(systemName: "square.and.arrow.up")
+                }
+                BookmarkButton(kind: .document, contentID: document.id)
+            }
+        }
     }
 }

@@ -59,6 +59,14 @@ struct CaseDetailView: View {
         .background(Color.appBackground)
         .revealingNavigationTitle(legalCase.shortName ?? legalCase.name)
         .tabBarMinimizeBehavior(.onScrollDown)
+        .toolbar {
+            ToolbarItemGroup(placement: .topBarTrailing) {
+                ShareLink(item: ShareText.legalCase(legalCase)) {
+                    Image(systemName: "square.and.arrow.up")
+                }
+                BookmarkButton(kind: .legalCase, contentID: legalCase.id)
+            }
+        }
     }
 
     @ViewBuilder
