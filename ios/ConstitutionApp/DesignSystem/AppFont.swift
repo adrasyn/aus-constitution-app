@@ -13,4 +13,6 @@ enum AppFont {
     static let badge = Font.system(.caption2, design: .default).weight(.semibold)
     static let mono = Font.system(.caption, design: .monospaced)
     static let monoSmall = Font.system(.caption2, design: .monospaced)
+    /// Serif title used in the nav bar reveal — scales with Dynamic Type.
+    static let navTitle = Font.custom("Georgia", size: 16, relativeTo: .headline).weight(.semibold)
 }

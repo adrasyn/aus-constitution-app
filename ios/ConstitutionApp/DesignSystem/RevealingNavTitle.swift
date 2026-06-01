@@ -3,20 +3,23 @@ import SwiftUI
 private struct RevealNavTitleModifier: ViewModifier {
     let title: String
     @State private var revealed = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     func body(content: Content) -> some View {
         content
             .onScrollGeometryChange(for: Bool.self) { geometry in
                 geometry.contentOffset.y > 44
             } action: { _, newValue in
-                withAnimation(.easeInOut(duration: 0.2)) { revealed = newValue }
+                withAnimation(reduceMotion ? nil : .easeInOut(duration: 0.2)) {
+                    revealed = newValue
+                }
             }
             .navigationTitle("")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     Text(title)
-                        .font(.system(size: 16, weight: .semibold, design: .serif))
+                        .font(AppFont.navTitle)
                         .foregroundStyle(Color.textPrimary)
                         .opacity(revealed ? 1 : 0)
                         .accessibilityHidden(!revealed)
