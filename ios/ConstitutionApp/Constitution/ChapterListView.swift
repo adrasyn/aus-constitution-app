@@ -8,8 +8,22 @@ struct ChapterListView: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 16) {
-                    ScreenHeader(title: "Constitution",
-                                 subtitle: "Commonwealth of Australia Constitution Act 1900")
+                    VStack(spacing: 10) {
+                        Image("CoatOfArms")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 140)
+                            .accessibilityLabel("Commonwealth Coat of Arms")
+                        Text("The Constitution")
+                            .font(AppFont.screenTitle)
+                            .foregroundStyle(Color.textPrimary)
+                        Text("Commonwealth of Australia Constitution Act 1900")
+                            .font(AppFont.subtitle)
+                            .foregroundStyle(Color.textSecondary)
+                            .multilineTextAlignment(.center)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding(.top, 8)
                     LazyVStack(spacing: 10) {
                         ForEach(store.chapters) { chapter in
                             let count = store.sections(for: chapter).count
