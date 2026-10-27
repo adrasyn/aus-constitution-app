@@ -95,11 +95,10 @@ export default function HomePage() {
 
       <footer className={styles.footer}>
         <p>
-          This site is a side project by{" "}
+          With love from{" "}
           <a href="https://x.com/jameswilson" target="_blank" rel="noopener noreferrer">
             James Wilson
-          </a>{" "}
-          &#127462;&#127482;
+          </a>
         </p>
       </footer>
     </div>
